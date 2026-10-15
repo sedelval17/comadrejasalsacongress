@@ -1,43 +1,34 @@
-# Datos a confirmar con la organización
+# Confirmaciones y datos pendientes de la organización
 
-Revisión de las fuentes públicas: **15 de octubre de 2026**. Los textos originales están archivados en `research/pages/`; las imágenes en `public/assets/original/`. Este documento conserva las versiones incompatibles sin decidir cuál es correcta. Una respuesta HTTP exitosa no confirma la vigencia comercial de un dato.
+Actualización: **15 de octubre de 2026**, con respuestas de la organización transmitidas por el usuario. Estas confirmaciones reemplazan las discrepancias encontradas en la web original. Las fuentes históricas permanecen en `research/` y `public/assets/original/`.
 
-## 1. Sede y domicilio — prioridad crítica
+## Confirmado y aplicado
 
-| Fuente | Información publicada |
-| --- | --- |
-| [Inicio](https://comadrejaproducciones.com/), [Contacto](https://comadrejaproducciones.com/contacto.html), encabezados y pie de las páginas | Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz, Córdoba. El mapa original apunta a esa dirección. |
-| [Afiche de la grilla](https://comadrejaproducciones.com/assets/img/lineup-group.jpg), enlazado en Inicio y Talleres | DOMUS AUDITORIUM SUITES, Jerónimo Luis de Cabrera 2091, Villa Carlos Paz, Córdoba. |
+- **Sede:** Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz, Córdoba. Se retiraron los avisos de sede pendiente y el mapa de Domus.
+- **El Mundial:** la eliminatoria de Córdoba es el **1 de noviembre**. La **Final Nacional Argentina es el 26 y 27 de noviembre**. Son actividades distintas: el 1/11 corresponde a la sede Córdoba, mientras que la Final Nacional del 26 y 27 reúne a participantes de todas las sedes del país, según la aclaración adicional de la organización.
+- **Battle Master:** eliminar los premios en efectivo. Se conservan los cinturones; ya no se anuncian los importes de las fuentes anteriores.
+- **Inscripciones:** exclusivamente con **Isa, +54 9 351 206 6467**, también para Battle Master. **Rodrigo Perazolo es el organizador**, no el contacto de inscripción.
+- **Sociales:** viernes, sábado y domingo. La social del viernes comienza a las **00:00 del sábado 28**, en la madrugada que sigue a la jornada del viernes.
+- **Grilla:** Ramón Vacilón canceló su participación y se retiró del contenido vigente. Se retiró de las páginas el afiche anterior, también de la miniatura de Mega Stars Class y de Open Graph, porque aún anuncia esa banda y otra sede. El original sigue archivado como evidencia histórica.
+- **Tarifa adicional de El Mundial:** los $20.000 adicionales se cuentan **desde la segunda categoría** cuando corresponde esa tarifa. El umbral para aplicarla sigue pendiente, según se detalla a continuación.
 
-Confirmar hotel y domicilio definitivos. No trasladar el mapa silenciosamente ni presentar ambos hoteles como sedes confirmadas. La transcripción del afiche está en `research/graphic-content.json`. El afiche dice 26 al 29 de noviembre de 2026, de modo que su conflicto de sede no puede descartarse como una imagen de otra edición.
+## Duda sobre el precio por categorías — conservar pendiente
 
-## 2. Fecha de la Final Nacional de El Mundial — prioridad crítica
+La respuesta recibida dice: «Los 20 adicionales cuentan desde la 2 categoría si compite + de 3 puntos».
 
-| Fuente | Información publicada |
-| --- | --- |
-| Párrafo de sedes en [El Mundial](https://comadrejaproducciones.com/el-mundial.html) | La gran final se disputa en Córdoba el 26 y 27 de noviembre. |
-| [Cronograma](https://comadrejaproducciones.com/talleres.html) | Jueves 26 y viernes 27 de noviembre: Final Nacional El Mundial, partes 1 y 2. |
-| Última fila de la tabla de sedes en [El Mundial](https://comadrejaproducciones.com/el-mundial.html) | «Dom 1° nov — Córdoba · Final Nacional». |
+El usuario indicó **mantener la duda**: falta aclarar si la tarifa aplica a **3 o más categorías** o a **más de 3 categorías**, y qué significa «puntos» en esa frase. No se publican totales para tres o cuatro categorías ni se asume el umbral.
 
-Confirmar si el 1 de noviembre corresponde a una eliminatoria distinta o es un dato desactualizado. El sitio no lo aclara. Mantener la discrepancia visible al consultar esa fila; no reasignar una actividad inventada al 1 de noviembre.
+Se conservan los importes originales de una categoría ($60.000) y dos categorías ($60.000 + $30.000). La tarifa de varias categorías identifica el adicional desde la segunda y remite a Isa para confirmar cuándo aplica y el total.
 
-## 3. Premio de Battle Master — prioridad crítica
+## Reglamentos
 
-| Fuente | Información publicada |
-| --- | --- |
-| Tarjeta Battle Master en [Inicio](https://comadrejaproducciones.com/) | «$500.000 en efectivo más cinturón para el campeón». |
-| Sección Premio en [Battle Master](https://comadrejaproducciones.com/battle-master.html) | «$250.000 + cinturón Battle Master, para el Master de Salsa y el Master de Bachata». |
+**El Mundial: recibido e integrado.** El usuario proporcionó `Reglamento-Oficial-2027-El-Mundial.pdf`, de 16 páginas, y confirmó que es el reglamento correspondiente a la eliminatoria de Córdoba del 1 de noviembre y a la Final Nacional del 26 y 27 de noviembre de 2026. Se conserva el título original **2027** y el archivo íntegro en `public/documents/reglamento-oficial-el-mundial-2027.pdf`, enlazado desde El Mundial → Reglamento. La web identifica la edición y las fechas a las que aplica; ya no ofrece solicitar ese documento como si estuviera ausente.
 
-Confirmar monto por ganador y monto total. Es posible que $500.000 sea el total de dos premios de $250.000, pero esa equivalencia **no está explicitada** y no se asume como confirmación.
+**Battle Master: pendiente.** Falta recibir su PDF oficial vigente. El enlace original devolvió HTTP 404 durante la auditoría y sigue disponible el contacto con Isa para solicitarlo.
 
-## 4. Reglamentos inaccesibles
+La página 14 del reglamento recibido indica un formulario en la plataforma oficial para selecciones nacionales y final. Queda por detallar cómo se coordina ese paso con Isa, que continúa siendo el contacto local de todas las inscripciones confirmado por la organización. No se crearon formularios ni enlaces de inscripción no proporcionados.
 
-- [Reglamento El Mundial 2026](https://comadrejaproducciones.com/assets/pdf/reglamento-el-mundial-2026.pdf): HTTP 404.
-- [Reglamento Battle Master](https://comadrejaproducciones.com/assets/pdf/reglamento-battle-master.pdf): HTTP 404.
-
-Los destinos devuelven HTML de error, no archivos PDF. Se preservaron las URL y el resultado HTTP en `research/assets.json` y `research/http.json`; no se fabricaron reglamentos. Faltan los PDF oficiales vigentes para publicar descargas funcionales. Los resúmenes HTML no sustituyen reglas completas, tiempos, puntuaciones ni penalizaciones.
-
-## 5. Nombres distintos entre HTML, archivos y afiche
+## Nombres de artistas pendientes
 
 | HTML de artistas / talleres | Otra versión encontrada | Acción |
 | --- | --- | --- |
@@ -50,23 +41,20 @@ Los destinos devuelven HTML de error, no archivos PDF. Se preservaron las URL y 
 
 Todos los nombres HTML se conservan literalmente en `research/artists.json`. No se identificó ni se renombró a una persona a partir de su rostro.
 
-## 6. Participantes y actividades presentes solo en el afiche
+## Participantes y materiales pendientes
 
-El afiche incluye **Aquiles Goro, Cato Sosa, Aymará, Jorge López**, la banda **Ramón Vacilón** y **stands de ventas**. Estos datos no aparecen en los textos HTML de la grilla. No se recuperaron retratos individuales inequívocos de esos cuatro artistas. Confirmar su participación y el cronograma antes de tratarlos como programación vigente. Los nombres y la mención musical permanecen archivados y atribuibles a su fuente, sin fotos sustitutas.
+- Confirmar la participación y cronograma de **Aquiles Goro, Cato Sosa, Aymará y Jorge López**, que aparecían solo en el afiche anterior. No se recuperaron fotografías individuales inequívocas.
+- La organización tiene **logos de stands y sponsors**; falta recibir los archivos, nombres y enlaces para incorporarlos. No se agregaron marcas ni logos de ejemplo.
+- Falta un **afiche actualizado** con Hotel Estilo MB y la grilla vigente.
+- Sigue siendo útil contar con el logo original completo o vectorial y mejores fotos de portada y de los artistas cuya resolución es limitada. Detalle en `IMAGENES_A_REEMPLAZAR.md`.
 
-## 7. Horarios y condiciones que la fuente no define
+## Horarios y condiciones aún no definidos
 
-- Los talleres del sábado y domingo y la final Battle Master no tienen horarios publicados. El guion «—» del original indica ausencia de horario; no se asignó una hora estimada.
-- La social del viernes figura a las 00:00 en la columna del viernes. Confirmar la interpretación nocturna: cronológicamente correspondería a la madrugada del sábado si sucede tras el cierre de las 23:00.
-- La Mega Stars Class anuncia ocho profesores pero no enumera cuáles son; no deducirlos de la grilla general.
-- No se publica precio independiente del Battle Master; solo su inclusión en el Full Pass y contacto con Rodrigo.
-- No se publica link permanente de Mercado Pago, CBU, alias bancario, cuotas, recargos, política de devolución ni condiciones de alojamiento. La fuente indica coordinación por WhatsApp; no se crearon condiciones nuevas.
-- La página Precios llama a Isa «único contacto oficial» para Full Pass e inscripciones, mientras Battle Master y Contacto remiten su inscripción a Rodrigo. La reconstrucción debe conservar los canales por actividad sin ampliar la exclusividad a actividades distintas.
+- Horarios de los talleres del sábado y domingo, shows y final Battle Master.
+- Los ocho profesores de la Mega Stars Class.
+- Precio independiente de Battle Master, si corresponde; su inclusión en el Full Pass se mantiene.
+- Link público de Mercado Pago, CBU/alias para publicar, cuotas, recargos, política de devolución y condiciones de alojamiento, si la organización desea detallarlos en la web. Por ahora se coordina por WhatsApp con Isa.
 
-## 8. Recursos gráficos originales
+## Historial
 
-`logo-comadreja.png` y `logo-congress.png` ya presentan letras cortadas en los archivos públicos; `logo.png` no contiene la marca completa. Se necesitan originales completos, preferentemente vectoriales. El detalle y las fotos cuya resolución limita su ampliación están en `IMAGENES_A_REEMPLAZAR.md`.
-
-## Decisión del usuario durante la reconstrucción
-
-El 15 de octubre de 2026 el usuario indicó conservar por ahora las referencias contradictorias de sede, fecha y premio, y confirmarlas más adelante. No se resolvió ninguna por suposición. El nuevo sitio presenta aclaraciones visibles y contacto con la organización; la ubicación general se limita a Villa Carlos Paz.
+La primera versión conservó las discrepancias de sede, fecha y premio a pedido del usuario. Las respuestas posteriores aquí registradas las resuelven y autorizan los cambios de contenido. La duda del umbral por categorías y los materiales todavía no recibidos permanecen pendientes.

@@ -12,13 +12,13 @@
 
 - Siete páginas completas y rutas históricas `.html`; `/index.html` sigue sirviendo la portada y canonical apunta a `/`.
 - Cronograma de cuatro días con navegación interna y nueve actividades de formación identificadas. Los horarios no publicados se muestran como pendientes.
-- 31 registros de artistas/parejas, compañías, conductores y DJs; notas atribuidas al afiche para nombres adicionales o variantes.
-- Full Pass, categorías de El Mundial, tres entradas de social y tres medios de pago. Los importes y mensajes de WhatsApp provienen de la web original.
-- Inscripción según actividad: Isa para Full Pass/El Mundial/consultas; Rodrigo para Battle Master. No se simula una compra ni un formulario que no envía nada.
+- 31 registros de artistas/parejas, compañías, conductores y DJs. El afiche anterior se retiró del contenido vigente tras las confirmaciones de sede y cancelación de Ramón Vacilón; sus variantes de nombres siguen documentadas.
+- Full Pass, categorías de El Mundial, tres entradas de social y tres medios de pago. Los importes provienen de la web original, con las aclaraciones recibidas; los destinos de WhatsApp se actualizaron para dirigir todas las inscripciones a Isa.
+- Todas las inscripciones con Isa, incluido Battle Master. Rodrigo conserva su presentación como organizador. No se simula una compra ni un formulario que no envía nada.
 - El Mundial incluye las etapas, estilos, formatos, niveles, edades y 13 referencias de eliminatorias/sedes publicadas.
-- Battle Master conserva formato, evaluación, restricciones y versiones publicadas del premio, con aclaración.
-- PDF original ausente: contacto real para solicitar el documento vigente, sin descargar un archivo inventado ni enlazar un 404 como si funcionara.
-- Dos referencias de sede identificadas por su fuente, con mapas y enlace directo. Ninguna se declara confirmada sin respuesta del organizador.
+- Battle Master conserva formato, evaluación, restricciones y cinturones; se retiró el premio en efectivo por indicación de la organización.
+- Reglamento de El Mundial recibido e integrado como descarga: documento original 2027, confirmado para las fechas de noviembre de 2026. Se identifican edición, 16 páginas y tamaño; Battle Master mantiene el contacto con Isa mientras falta su PDF.
+- Una única sede confirmada: Hotel Estilo MB, Almafuerte 40, con mapa y enlace directo. La eliminatoria de Córdoba del 1 de noviembre se distingue de la Final Nacional del 26 y 27.
 
 ## Accesibilidad y estabilidad
 

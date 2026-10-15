@@ -51,3 +51,7 @@ Para evitar exhibir letras cortadas, la portada usa la marca original completa r
 ## Actualización por pedido del usuario: logo reconstruido
 
 El usuario aportó una miniatura y pidió rehacer el logo respetando tipografía, colores y disposición. La versión final seleccionada está en `output/logo/comadreja-salsa-congress-2026-fondo-negro.png`, 2170 × 725 px. La versión WebP del sitio se usa en portada, encabezado y pie. Es una reconstrucción visual, sin identificación garantizada del nombre exacto de la fuente. Los intentos de fondo transparente introdujeron artefactos y se descartaron; el PNG entregado tiene fondo negro. La extracción fiel del afiche y los archivos fuente siguen intactos. Proceso y prompt: `output/logo/README.md` y `output/logo/PROMPT_FONDO_NEGRO.txt`.
+
+## Actualización tras las confirmaciones de la organización
+
+El afiche `lineup-group.jpg` ya no se muestra ni se enlaza desde la web, no se usa como imagen de Mega Stars Class y fue reemplazado en Open Graph por la marca del evento. El original anuncia otra sede y una banda que canceló su participación; queda archivado como fuente histórica. La sede vigente es Hotel Estilo MB. Se espera un afiche actualizado y los logos de stands y sponsors que la organización indicó tener.

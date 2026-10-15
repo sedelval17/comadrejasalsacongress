@@ -8,18 +8,18 @@ export const schedule = [
     { time: '08:00', name: 'Acreditaciones' },
     { time: '09:00', name: 'Comienza la competencia' },
     { time: '23:00', name: 'Final de la competencia y entrega de premios' },
-    { time: '00:00', name: 'Social, toda la noche' },
+    { time: '00:00', name: 'Social del viernes · madrugada del sábado 28' },
   ] },
   { id: 'sabado', day: 'Sábado', date: '28', title: 'Talleres internacionales y noche de shows', events: [
     { time: null, name: 'Talleres internacionales' },
-    { time: null, name: 'Show social' },
+    { time: null, name: 'Shows y social del sábado' },
     { time: null, name: 'Battles y DJs en vivo' },
   ] },
   { id: 'domingo', day: 'Domingo', date: '29', title: 'Talleres, masterclass all stars y gran final Battle Master', events: [
     { time: null, name: 'Talleres internacionales' },
     { time: null, name: 'Masterclass All Stars' },
     { time: null, name: 'Final Comadreja Battle Master 1vs1' },
-    { time: null, name: 'Social de cierre' },
+    { time: null, name: 'Social del domingo · cierre' },
   ] },
 ];
 
@@ -29,7 +29,7 @@ export const workshops = [
   { day: 'Sábado', title: 'Bachata · shines y vueltas combinadas', teacher: 'Stephanie Lucero', image: 'artist-stephanie-lucero.jpg', handles: ['stephanielucerooffical'] },
   { day: 'Sábado', title: 'Bachata · shines y vueltas combinadas', teacher: 'Cristian Paredes e Isidora Jacob', image: 'artist-isidora-cristian.jpg', handles: ['cl.cristianparedes', 'isidorajacob__'] },
   { day: 'Sábado', title: 'Salsa · shines y vueltas combinadas', teacher: 'Carine y Rafael', image: 'artist-carine-rafael.jpg', handles: ['carineyrafael'] },
-  { day: 'Domingo', title: 'Mega Stars Class Bachata', teacher: 'Masterclass de bachata coreográfica con 8 profesores reconocidos', image: 'lineup-group.jpg', handles: [] },
+  { day: 'Domingo', title: 'Mega Stars Class Bachata', teacher: 'Masterclass de bachata coreográfica con 8 profesores reconocidos', image: null, handles: [] },
   { day: 'Domingo', title: 'Salsa fusión', teacher: 'Darío Burgenes', image: 'artist-dario-burgenes.jpg', handles: ['darioburgenescandela'] },
   { day: 'Domingo', title: 'Mambo · shines y vueltas combinadas', teacher: 'Ángel Rojas y Carla Martínez', image: 'artist-angel-carly.jpg', handles: ['angelrojas_86'] },
   { day: 'Domingo', title: 'Bachata · shines y vueltas combinadas', teacher: 'Anthony y Belén', image: 'artist-antoni-belen.jpg', handles: ['antoniybelenoficial'] },
@@ -62,5 +62,5 @@ export const venues = [
   ['Sáb 24 oct', 'San Luis', 'ArcenioPrimo'],
   ['Sáb 24 oct', 'Santa Fe', 'elite.danceclub'],
   ['Sáb 31 oct', 'Mar del Plata', 'elmundial.mdp.arg'],
-  ['Dom 1° nov', 'Córdoba · Final Nacional', 'ComadrejaProducciones'],
+  ['Dom 1° nov', 'Córdoba · Eliminatoria', 'ComadrejaProducciones'],
 ];

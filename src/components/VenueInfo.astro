@@ -1,0 +1,14 @@
+---
+import { event } from '../data/site';
+import { withBase } from '../lib/urls';
+import Icon from './Icon.astro';
+---
+<div class="venue-info">
+  <Icon name="pin" class="venue-info-pin" />
+  <div>
+    <span class="eyebrow">Sede del congreso</span>
+    <h2>{event.venue}</h2>
+    <p>{event.address}</p>
+  </div>
+  <a class="underlink venue-info-link" href={withBase('/contacto.html#ubicacion')}>Ver ubicación <Icon /></a>
+</div>

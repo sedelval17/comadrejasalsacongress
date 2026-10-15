@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-15T15:33:13.382Z",
+  "testedAt": "2026-10-15T16:01:18.297Z",
   "base": "http://localhost:4323",
   "widths": [
     320,
@@ -31,7 +31,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 84
+        "lcp": 100
       },
       "pageErrors": [],
       "localErrors": [],
@@ -55,7 +55,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 28
+        "lcp": 32
       },
       "pageErrors": [],
       "localErrors": [],
@@ -73,13 +73,13 @@
       "h1Count": 1,
       "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/battle-master.html",
-      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, cinturones, reglamento e inscripción con Isa.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 28
+        "lcp": 24
       },
       "pageErrors": [],
       "localErrors": [],
@@ -103,7 +103,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 28
+        "lcp": 32
       },
       "pageErrors": [],
       "localErrors": [],
@@ -124,10 +124,10 @@
       "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
-      "cls": 0,
+      "cls": 0.000823479938271605,
       "initialMetrics": {
-        "cls": 0,
-        "lcp": 40
+        "cls": 0.000823479938271605,
+        "lcp": 44
       },
       "pageErrors": [],
       "localErrors": [],
@@ -169,13 +169,13 @@
       "h1Count": 1,
       "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/contacto.html",
-      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "description": "Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 28
+        "lcp": 36
       },
       "pageErrors": [],
       "localErrors": [],
@@ -199,7 +199,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 68
+        "lcp": 72
       },
       "pageErrors": [],
       "localErrors": [],
@@ -223,7 +223,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 40
+        "lcp": 28
       },
       "pageErrors": [],
       "localErrors": [],
@@ -241,13 +241,13 @@
       "h1Count": 1,
       "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/battle-master.html",
-      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, cinturones, reglamento e inscripción con Isa.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 28
+        "lcp": 24
       },
       "pageErrors": [],
       "localErrors": [],
@@ -271,7 +271,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 28
+        "lcp": 40
       },
       "pageErrors": [],
       "localErrors": [],
@@ -292,9 +292,9 @@
       "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
-      "cls": 0.00024551440329218107,
+      "cls": 0.002602452674897119,
       "initialMetrics": {
-        "cls": 0.00024551440329218107,
+        "cls": 0.002602452674897119,
         "lcp": 28
       },
       "pageErrors": [],
@@ -337,13 +337,13 @@
       "h1Count": 1,
       "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/contacto.html",
-      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "description": "Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 40
+        "lcp": 28
       },
       "pageErrors": [],
       "localErrors": [],
@@ -367,7 +367,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 84
+        "lcp": 80
       },
       "pageErrors": [],
       "localErrors": [],
@@ -391,7 +391,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 44
+        "lcp": 36
       },
       "pageErrors": [],
       "localErrors": [],
@@ -409,13 +409,13 @@
       "h1Count": 1,
       "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/battle-master.html",
-      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, cinturones, reglamento e inscripción con Isa.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 28
+        "lcp": 44
       },
       "pageErrors": [],
       "localErrors": [],
@@ -463,7 +463,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 48
+        "lcp": 40
       },
       "pageErrors": [],
       "localErrors": [],
@@ -487,7 +487,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 32
+        "lcp": 44
       },
       "pageErrors": [],
       "localErrors": [],
@@ -505,13 +505,13 @@
       "h1Count": 1,
       "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/contacto.html",
-      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "description": "Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 48
+        "lcp": 40
       },
       "pageErrors": [],
       "localErrors": [],
@@ -577,13 +577,13 @@
       "h1Count": 1,
       "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/battle-master.html",
-      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, cinturones, reglamento e inscripción con Isa.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 40
+        "lcp": 32
       },
       "pageErrors": [],
       "localErrors": [],
@@ -607,7 +607,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 40
+        "lcp": 48
       },
       "pageErrors": [],
       "localErrors": [],
@@ -631,7 +631,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 56
+        "lcp": 40
       },
       "pageErrors": [],
       "localErrors": [],
@@ -655,7 +655,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 40
+        "lcp": 36
       },
       "pageErrors": [],
       "localErrors": [],
@@ -673,13 +673,13 @@
       "h1Count": 1,
       "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/contacto.html",
-      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "description": "Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 48
+        "lcp": 40
       },
       "pageErrors": [],
       "localErrors": [],
@@ -703,7 +703,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 92
+        "lcp": 88
       },
       "pageErrors": [],
       "localErrors": [],
@@ -727,7 +727,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 36
+        "lcp": 44
       },
       "pageErrors": [],
       "localErrors": [],
@@ -745,13 +745,13 @@
       "h1Count": 1,
       "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/battle-master.html",
-      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, cinturones, reglamento e inscripción con Isa.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 44
+        "lcp": 48
       },
       "pageErrors": [],
       "localErrors": [],
@@ -775,7 +775,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 56
+        "lcp": 44
       },
       "pageErrors": [],
       "localErrors": [],
@@ -799,7 +799,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 48
+        "lcp": 40
       },
       "pageErrors": [],
       "localErrors": [],
@@ -823,7 +823,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 36
+        "lcp": 44
       },
       "pageErrors": [],
       "localErrors": [],
@@ -841,13 +841,13 @@
       "h1Count": 1,
       "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/contacto.html",
-      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "description": "Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 48
+        "lcp": 36
       },
       "pageErrors": [],
       "localErrors": [],
@@ -871,7 +871,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 104
+        "lcp": 112
       },
       "pageErrors": [],
       "localErrors": [],
@@ -895,7 +895,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 40
+        "lcp": 48
       },
       "pageErrors": [],
       "localErrors": [],
@@ -913,13 +913,13 @@
       "h1Count": 1,
       "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/battle-master.html",
-      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, cinturones, reglamento e inscripción con Isa.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 36
+        "lcp": 40
       },
       "pageErrors": [],
       "localErrors": [],
@@ -943,7 +943,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 60
+        "lcp": 44
       },
       "pageErrors": [],
       "localErrors": [],
@@ -967,7 +967,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 52
+        "lcp": 48
       },
       "pageErrors": [],
       "localErrors": [],
@@ -991,7 +991,7 @@
       "cls": 0,
       "initialMetrics": {
         "cls": 0,
-        "lcp": 44
+        "lcp": 48
       },
       "pageErrors": [],
       "localErrors": [],
@@ -1009,7 +1009,7 @@
       "h1Count": 1,
       "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
       "canonical": "https://comadrejaproducciones.com/contacto.html",
-      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "description": "Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.",
       "emptyLinks": 0,
       "scheduleDateOverflow": [],
       "cls": 0,
@@ -1216,7 +1216,7 @@
       "passed": true
     },
     {
-      "test": "all-31-artist-records-and-poster",
+      "test": "all-31-artist-records",
       "passed": true
     },
     {
@@ -1229,7 +1229,7 @@
       "duration": 24.233,
       "width": 406,
       "height": 720,
-      "currentTime": 1.111404
+      "currentTime": 1.112502
     },
     {
       "test": "four-youtube-facades",
@@ -1237,17 +1237,11 @@
       "note": "Verified iframe activation and official source. Playback restrictions may depend on YouTube/account/region."
     },
     {
-      "test": "two-attributed-location-maps",
+      "test": "confirmed-event-location-map",
       "maps": [
         {
-          "title": "Mapa de Hotel Estilo MB, sede publicada pendiente de confirmación",
+          "title": "Mapa de Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz, Córdoba",
           "source": "https://www.google.com/maps?q=Almafuerte+40,+Villa+Carlos+Paz,+C%C3%B3rdoba&output=embed",
-          "width": 618,
-          "height": 298
-        },
-        {
-          "title": "Mapa de Domus Auditorium Suites, sede publicada pendiente de confirmación",
-          "source": "https://www.google.com/maps?q=Domus+Auditorium+Suites,+Jer%C3%B3nimo+Luis+de+Cabrera+2091,+Villa+Carlos+Paz,+C%C3%B3rdoba&output=embed",
           "width": 618,
           "height": 298
         }

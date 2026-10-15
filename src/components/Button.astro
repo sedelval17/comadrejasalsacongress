@@ -1,8 +1,8 @@
 ---
 import Icon from './Icon.astro';
 import { withBase } from '../lib/urls';
-interface Props { href: string; variant?: 'gold' | 'outline' | 'wine' | 'text'; class?: string; }
-const { href, variant = 'gold', class: className } = Astro.props;
+interface Props { href: string; variant?: 'gold' | 'outline' | 'wine' | 'text'; class?: string; download?: boolean; }
+const { href, variant = 'gold', class: className, download } = Astro.props;
 const external = href.startsWith('https://');
 ---
-<a class:list={['button', `button-${variant}`, className]} href={withBase(href)} target={external ? '_blank' : undefined} rel={external ? 'noopener noreferrer' : undefined}><slot /><Icon name={external ? 'external' : 'arrow'} /></a>
+<a class:list={['button', `button-${variant}`, className]} href={withBase(href)} download={download} target={external ? '_blank' : undefined} rel={external ? 'noopener noreferrer' : undefined}><slot /><Icon name={download ? 'download' : external ? 'external' : 'arrow'} /></a>

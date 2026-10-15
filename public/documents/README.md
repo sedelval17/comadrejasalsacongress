@@ -1,8 +1,16 @@
-# Reglamentos pendientes
+# Reglamentos
 
-Los dos PDF enlazados por el sitio publicado respondieron HTTP 404 el 15 de octubre de 2026:
+## El Mundial — disponible
 
-- https://comadrejaproducciones.com/assets/pdf/reglamento-el-mundial-2026.pdf
-- https://comadrejaproducciones.com/assets/pdf/reglamento-battle-master.pdf
+Archivo: `reglamento-oficial-el-mundial-2027.pdf`.
 
-No se creó ni se reemplazó ningún reglamento. Cuando la organización proporcione los documentos vigentes, colocarlos aquí y actualizar sus enlaces en los datos del sitio. Mientras tanto, la página debe ofrecer contacto real con la organización para solicitarlos.
+- Proporcionado por el usuario el 15 de octubre de 2026, recibido de la organización.
+- 16 páginas; 7.725.342 bytes.
+- Se conserva íntegro, sin modificar el contenido. Su título y edición originales son **El Mundial 2027**.
+- El usuario confirmó que corresponde a la eliminatoria de Córdoba del 1 de noviembre y a la Final Nacional Argentina del 26 y 27 de noviembre de 2026.
+- Descarga desde **El Mundial → Reglamento**, respetando la ruta base del sitio.
+- Procedencia y SHA-256: `research/rulebook-review.json`.
+
+## Battle Master — pendiente
+
+El PDF original devolvió HTTP 404 durante la auditoría del 15 de octubre de 2026. Sigue disponible el contacto con Isa para solicitarlo. Cuando llegue el documento, colocarlo aquí y actualizar su descarga; no generar un reglamento sustituto.

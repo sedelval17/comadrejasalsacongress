@@ -31,10 +31,10 @@ const canonical = new URL(withBase(active), Astro.site);
     <meta property="og:title" content={`${title} · Comadreja 2026`} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL(withBase('/assets/original/lineup-group.jpg'), Astro.site)} />
-    <meta property="og:image:alt" content="Grilla oficial de Comadreja Salsa Congress 2026" />
-    <meta property="og:image:width" content="1080" />
-    <meta property="og:image:height" content="1920" />
+    <meta property="og:image" content={new URL(withBase('/assets/brand/comadreja-logo-reconstruido-v1.webp'), Astro.site)} />
+    <meta property="og:image:alt" content="Comadreja Salsa Congress 2026" />
+    <meta property="og:image:width" content="2170" />
+    <meta property="og:image:height" content="725" />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
@@ -48,7 +48,7 @@ const canonical = new URL(withBase(active), Astro.site);
       </div>
     </header>
     <main id="contenido" tabindex="-1"><slot /></main>
-    <footer class="site-footer"><div class="container"><div class="footer-top"><a class="brand" href={withBase('/')} aria-label="Comadreja Salsa Congress 2026, inicio"><img src={withBase('/assets/brand/comadreja-logo-reconstruido-v1.webp')} width="2170" height="725" alt="Comadreja 2026 Salsa Congress" decoding="async" /></a><p>Más que historia,<br />una experiencia.</p><a class="back-top" href="#contenido">Volver arriba <span aria-hidden="true">↑</span></a></div><div class="footer-grid"><div><span class="eyebrow">Nos vemos en Córdoba</span><p>{event.dates} de {event.year}<br />Villa Carlos Paz, Córdoba, Argentina.<br />Sede por confirmar: Estilo MB / Domus Auditorium Suites.</p><a class="underlink" href={withBase('/contacto.html#ubicacion')}>Cómo llegar <Icon name="external" /></a></div><nav aria-label="Navegación de pie de página"><span class="eyebrow">Explorá el congreso</span>{navigation.filter(item => item.href !== '/').map(item => <a href={withBase(item.href)}>{item.label}</a>)}</nav><div><span class="eyebrow">Sigamos en contacto</span><a href={links.info} target="_blank" rel="noopener noreferrer">WhatsApp Isa · Full Pass e inscripciones <Icon name="external" /></a>{socials.map(social => <a href={social.url} target="_blank" rel="noopener noreferrer">{social.name} <Icon name="instagram" /></a>)}</div></div><div class="footer-bottom"><span>© 2026 Comadreja Producciones.</span><span>Programa sujeto a cambios.</span><span>Villa Carlos Paz · Argentina</span></div></div></footer>
+    <footer class="site-footer"><div class="container"><div class="footer-top"><a class="brand" href={withBase('/')} aria-label="Comadreja Salsa Congress 2026, inicio"><img src={withBase('/assets/brand/comadreja-logo-reconstruido-v1.webp')} width="2170" height="725" alt="Comadreja 2026 Salsa Congress" decoding="async" /></a><p>Más que historia,<br />una experiencia.</p><a class="back-top" href="#contenido">Volver arriba <span aria-hidden="true">↑</span></a></div><div class="footer-grid"><div><span class="eyebrow">Nos vemos en Córdoba</span><p>{event.dates} de {event.year}<br />{event.venue}<br />{event.address}.</p><a class="underlink" href={withBase('/contacto.html#ubicacion')}>Cómo llegar <Icon name="external" /></a></div><nav aria-label="Navegación de pie de página"><span class="eyebrow">Explorá el congreso</span>{navigation.filter(item => item.href !== '/').map(item => <a href={withBase(item.href)}>{item.label}</a>)}</nav><div><span class="eyebrow">Sigamos en contacto</span><a href={links.info} target="_blank" rel="noopener noreferrer">WhatsApp Isa · Full Pass e inscripciones <Icon name="external" /></a>{socials.map(social => <a href={social.url} target="_blank" rel="noopener noreferrer">{social.name} <Icon name="instagram" /></a>)}</div></div><div class="footer-bottom"><span>© 2026 Comadreja Producciones.</span><span>Programa sujeto a cambios.</span><span>Villa Carlos Paz · Argentina</span></div></div></footer>
     <a class="contact-float" href={links.info} target="_blank" rel="noopener noreferrer" aria-label="Consultar a Isa por WhatsApp"><Icon name="whatsapp" /></a>
     <script>
       const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu');

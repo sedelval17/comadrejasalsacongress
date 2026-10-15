@@ -47,12 +47,12 @@ La salida completa está en `dist/`. El sitio entrega HTML estático; JavaScript
 | Ruta | Contenido |
 | --- | --- |
 | `/` y `/index.html` | Evento, artistas destacados, agenda, video, Full Pass y aclaración de sede |
-| `/el-mundial.html` | Etapas, categorías, sedes, inscripción y acceso para solicitar reglamento |
-| `/battle-master.html` | Formato 1vs1, evaluación, restricciones, premios publicados e inscripción |
+| `/el-mundial.html` | Etapas, categorías, sedes, inscripción y descarga del reglamento oficial El Mundial 2027 |
+| `/battle-master.html` | Formato 1vs1, evaluación, restricciones, cinturones e inscripción con Isa |
 | `/talleres.html` | Cronograma de cuatro días, nueve talleres/actividades formativas y social |
-| `/artistas.html` | Grilla completa, compañías, conductores, DJs y afiche con observaciones |
+| `/artistas.html` | Grilla de artistas, compañías, conductores y DJs |
 | `/precios.html` | Full Pass, inscripción, entradas nocturnas y medios de pago |
-| `/contacto.html` | Contactos, organizador, redes, cuatro videos y mapas de las dos sedes publicadas |
+| `/contacto.html` | Inscripciones con Isa, organizador, redes, cuatro videos y mapa de Hotel Estilo MB |
 | `/404.html` | Página de error de navegación |
 | `/sitemap.xml`, `/robots.txt` | Indexación y descubrimiento de rutas |
 
@@ -72,7 +72,7 @@ No hay botones de pago ficticios: las reservas van a los WhatsApp originales, co
 | `public/assets/original/` | Recursos originales, intactos, recuperados de las fuentes públicas |
 | `public/assets/images/` | Imágenes responsivas optimizadas, sin ampliación ni recorte de personas |
 | `public/assets/brand/` | Marca original completa extraída del afiche, con trazabilidad |
-| `public/documents/` | Ubicación prevista para reglamentos oficiales y explicación de los faltantes |
+| `public/documents/` | PDF recibido de El Mundial y explicación del reglamento pendiente de Battle Master |
 
 Los datos conflictivos se conservan con atribución, no se resuelven automáticamente. Al confirmar una sede, fecha, nombre o premio, actualizar los datos y sus avisos, las menciones correspondientes en páginas y metadatos, y `DATOS_A_CONFIRMAR.md`. Verificar especialmente el afiche antes de sustituirlo.
 
@@ -130,11 +130,11 @@ Para un hosting que haga su propio build: comando `npm run build`, directorio de
 - **[AUDITORIA.md](AUDITORIA.md):** sitio original, identidad, recursos y hallazgos comprobados.
 - **[INVENTARIO_CONTENIDO.md](INVENTARIO_CONTENIDO.md):** contenido recuperado y páginas de origen.
 - **[IMAGENES_A_REEMPLAZAR.md](IMAGENES_A_REEMPLAZAR.md):** calidad, límites y originales necesarios.
-- **[DATOS_A_CONFIRMAR.md](DATOS_A_CONFIRMAR.md):** sede, fechas, premios, variantes de nombres y documentos faltantes.
+- **[DATOS_A_CONFIRMAR.md](DATOS_A_CONFIRMAR.md):** confirmaciones de la organización, duda de la tarifa por categorías, nombres y materiales pendientes.
 - **[MEJORAS.md](MEJORAS.md):** decisiones de diseño, funcionamiento y arquitectura.
 - **[VALIDACIONES.md](VALIDACIONES.md):** pruebas realmente ejecutadas y sus límites.
 
-El usuario pidió mantener por ahora las diferencias de sede, fecha y premio hasta confirmarlas. Ambos reglamentos originales devolvieron HTTP 404 y no se recuperaron versiones alternativas: se ofrecen contactos reales para solicitarlos. No se inventaron reglas, horarios, precios independientes, política de devolución, fotos de hotel ni retratos de artistas faltantes.
+La organización confirmó Hotel Estilo MB, eliminatoria de Córdoba el 1 de noviembre y Final Nacional el 26 y 27. Se eliminaron los premios en efectivo de Battle Master y Ramón Vacilón; todas las inscripciones se dirigen a Isa. El afiche anterior fue retirado de las páginas y Open Graph por contener datos descartados. Sigue pendiente si la tarifa por categorías aplica desde tres o desde más de tres categorías. El reglamento oficial El Mundial 2027 fue proporcionado por el usuario, confirmado para las fechas de noviembre de 2026 e integrado como descarga. Se conserva sin modificaciones y con su edición original identificada. Sigue pendiente el PDF de Battle Master, que se puede solicitar a Isa. No se inventaron reglas, horarios, precios independientes, política de devolución, fotos de hotel ni retratos de artistas faltantes.
 
 ## Revisión temporal en GitHub Pages
 

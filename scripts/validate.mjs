@@ -134,12 +134,10 @@ try {
     linkResults.push({ path, status: response.status() });
   }
   await page.goto(base + '/artistas.html', { waitUntil: 'domcontentloaded' });
-  await page.locator('.poster-details summary').click();
   const artists = JSON.parse(await readFile('src/data/artists.json', 'utf8'));
   const artistText = await page.locator('main').innerText();
   check(artists.every(a => artistText.includes(a.name)), 'Artist roster lost names');
-  check(await page.locator('.poster-content').isVisible(), 'Poster details did not open');
-  interactions.push({ test: 'all-31-artist-records-and-poster', passed: artists.every(a => artistText.includes(a.name)) });
+  interactions.push({ test: 'all-31-artist-records', passed: artists.every(a => artistText.includes(a.name)) });
 
   await page.goto(base + '/talleres.html', { waitUntil: 'domcontentloaded' });
   for (const day of ['jueves', 'viernes', 'sabado', 'domingo']) {
@@ -182,8 +180,8 @@ try {
   }
   interactions.push({ test: 'four-youtube-facades', passed: true, note: 'Verified iframe activation and official source. Playback restrictions may depend on YouTube/account/region.' });
   const maps = await page.locator('.map-frame iframe').evaluateAll(frames => frames.map(frame => ({ title: frame.title, source: frame.src, width: frame.getBoundingClientRect().width, height: frame.getBoundingClientRect().height })));
-  check(maps.length === 2 && maps.every(map => map.width > 0 && map.height >= 298 && map.height <= 300), 'Both source locations must have reserved maps');
-  interactions.push({ test: 'two-attributed-location-maps', maps });
+  check(maps.length === 1 && maps.every(map => map.source.includes('Almafuerte+40') && map.width > 0 && map.height >= 298 && map.height <= 300), 'The confirmed Hotel Estilo MB location must have a reserved map');
+  interactions.push({ test: 'confirmed-event-location-map', maps });
   await page.close();
 
   const nojs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 375, height: 900 } });

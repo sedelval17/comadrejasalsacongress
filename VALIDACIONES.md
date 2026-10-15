@@ -1,6 +1,6 @@
 # Validaciones ejecutadas
 
-Fecha: **15 de octubre de 2026**. Entorno local Linux, Node 22.23.3, Astro 7.3.8 y Chromium mediante Playwright. Se revisó la salida estática de producción servida en el puerto 4321.
+Fecha: **15 de octubre de 2026**. Entorno local Linux, Node 22.23.3, Astro 7.3.8 y Chromium mediante Playwright. Se revisó la salida estática de producción servida en el puerto 4323 en la revisión más reciente.
 
 ## Compilación
 
@@ -31,10 +31,10 @@ Resultado final de la suite: **0 fallos**.
 | Excepciones JavaScript y errores de recursos locales | Ninguno |
 | H1, descripción y canonical por página | Correctos |
 | Enlaces vacíos o de marcador `#` | Ninguno |
-| Enlaces internos y anclas recopiladas | 35 destinos comprobados, sin fallos |
+| Enlaces internos y anclas recopiladas | 33 destinos comprobados, sin fallos |
 | `/index.html`, sitemap, robots y página 404 | Servidos correctamente |
 
-La prueba mide cambios de posición con `PerformanceObserver`. El CLS observado fue **0 en 40 de las 42 combinaciones**, y aproximadamente **0,0087 y 0,0123** en la página de artistas a 320 y 375 px, respectivamente. Son observaciones locales sin simular red móvil ni limitar CPU; no equivalen a datos de campo ni a una garantía universal de Core Web Vitals. No se ejecutó Lighthouse ni se inventó una puntuación.
+La prueba mide cambios de posición con `PerformanceObserver`. En la revisión más reciente, el CLS observado fue **0 en 40 de las 42 combinaciones**, y aproximadamente **0,0008 y 0,0026** en la página de artistas a 320 y 375 px, respectivamente. Son observaciones locales sin simular red móvil ni limitar CPU; no equivalen a datos de campo ni a una garantía universal de Core Web Vitals. No se ejecutó Lighthouse ni se inventó una puntuación.
 
 ## Accesibilidad y funcionamiento
 
@@ -42,10 +42,10 @@ La prueba mide cambios de posición con `PerformanceObserver`. El CLS observado 
 - Se corrigieron discrepancias entre texto visible y nombre accesible en la marca y en los enlaces de reproducción.
 - Menú móvil probado a 320, 375, 768 y 1024 px: Enter abre, Escape cierra y restaura el foco, y el enlace de precios navega a su ruta real.
 - Contexto sin JavaScript a 375 px: el menú nativo abre y los enlaces de video conservan sus destinos de YouTube.
-- Las 31 entradas de la grilla aparecen en la página de artistas; el desplegable del afiche abre.
+- Las 31 entradas de la grilla aparecen en la página de artistas. El afiche anterior fue retirado tras las confirmaciones de la organización.
 - Las cuatro anclas del cronograma llevan a su día sin ocultarlo detrás del encabezado fijo.
 - Activación real de las cuatro miniaturas de YouTube: se inserta el iframe de `youtube-nocookie.com` correspondiente después del clic, y no antes.
-- Las dos referencias de sede tienen mapas con título, dimensiones reservadas y enlace externo al domicilio atribuido a cada fuente.
+- La sede confirmada, Hotel Estilo MB, tiene un único mapa con título, dimensiones reservadas y enlace externo a Almafuerte 40.
 
 La ausencia de infracciones de Axe no certifica conformidad completa. Quedaron comprobaciones automáticas inconclusas de contraste sobre imágenes, atributos ARIA contextuales y subtitulado del video. No se recuperaron subtítulos oficiales del material. No se declara probado el acceso con todos los lectores de pantalla.
 
@@ -63,9 +63,9 @@ Los reproductores de YouTube pueden depender de restricciones del proveedor, reg
 
 ## Límites y datos pendientes
 
-- Los dos reglamentos originales devolvieron HTTP 404. Se conservaron sus referencias en la auditoría y se ofrecen contactos reales para solicitar versiones vigentes.
-- No se enviaron mensajes de WhatsApp, no se realizaron compras ni transacciones. Se preservaron los enlaces y mensajes predefinidos.
-- Sede, fecha de la Final Nacional y premio se mantienen con aclaración por instrucción del usuario, pendientes de confirmación.
+- Los dos enlaces originales de reglamentos devolvieron HTTP 404 durante la auditoría. Posteriormente el usuario proporcionó El Mundial 2027 y confirmó que corresponde a las fechas de noviembre de 2026; ya está disponible como descarga. Battle Master conserva el contacto con Isa mientras falta su PDF.
+- No se enviaron mensajes de WhatsApp, no se realizaron compras ni transacciones. Los destinos de inscripción y sus mensajes predefinidos se dirigen a Isa, incluido Battle Master.
+- Se aplicaron las confirmaciones de sede, eliminatoria/final, contacto único de inscripción y sociales; se retiró el premio en efectivo de Battle Master. La tarifa por cantidad de categorías continúa pendiente de aclaración.
 - No se publicaron cambios en el dominio original.
 - No se probaron todos los navegadores, dispositivos físicos ni condiciones de conectividad.
 
@@ -82,3 +82,15 @@ La compilación de revisión se probó con `COMADREJA_SITE_URL=https://sedelval1
 ## Validación del ajuste de legibilidad
 
 Después de aumentar los tamaños se ejecutaron nuevamente `npm run check`, `npm run build` y la suite de producción: 42 combinaciones responsive y 14 análisis Axe, sin fallos; CLS observado 0 en las 42 combinaciones de esta ejecución. Se revisó además la portada a 1100 y 1280 px para comprobar que el menú de 16 px entra completo, y la navegación del cronograma a 375 px: el día seleccionado queda debajo de la barra fija. Capturas de revisión: `validation/screenshots/readability-home-1440.png`, `readability-home-375.png` y `readability-program-375.png`.
+
+## Confirmaciones posteriores de la organización
+
+Se ejecutaron `npm run check`, `npm run build`, las 42 combinaciones de la suite y 14 análisis Axe, sin fallos. Se comprobó además en las siete páginas que los WhatsApp dirigen a Isa y que no se muestran Domus, Ramón Vacilón, los importes retirados de Battle Master ni el afiche anterior, incluso en Open Graph. Se verificaron la eliminatoria de Córdoba del 1 de noviembre, la Final Nacional del 26 y 27 y la aclaración de la social del viernes a las 00:00 del sábado 28.
+
+La tarifa de $20.000 desde la segunda categoría se muestra sin asumir si aplica desde tres o desde más de tres categorías. Después de acortar el botón de consulta de Battle Master se recompiló y se comprobó su texto y destino en móvil. Vistas revisadas: `validation/screenshots/confirmed-prices-1440.png`, `confirmed-socials-375.png`, `confirmed-location-1440.png` y `confirmed-battle-375.png`. Estos cambios se mantienen en local para revisión.
+
+## Descarga del reglamento recibido de El Mundial
+
+Se revisaron las 16 páginas del PDF recibido y se verificó visualmente su portada, que identifica la edición 2027. El usuario confirmó su aplicación a las fechas de Córdoba de noviembre de 2026. Se trasladó íntegro a `public/documents/reglamento-oficial-el-mundial-2027.pdf`, preservando el contenido y su SHA-256, registrado en `research/rulebook-review.json`.
+
+`npm run check` y `npm run build` finalizaron correctamente. La salida estática devuelve HTTP 200 con `application/pdf`, 7.725.342 bytes y el mismo SHA-256 del original. Se verificaron la navegación desde el botón Reglamento, la descarga real con nombre correcto y las vistas a 320, 375, 768 y 1440 px sin desbordes. Los dos análisis Axe de El Mundial a 375 y 1440 px no detectaron infracciones. El botón de Battle Master mantiene el destino de WhatsApp de Isa y no descarga un archivo inexistente. Estos cambios siguen en local.

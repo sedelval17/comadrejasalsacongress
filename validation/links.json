@@ -136,16 +136,6 @@
       "anchorExists": true
     },
     {
-      "path": "/artistas.html#afiche",
-      "status": 200,
-      "anchorExists": true
-    },
-    {
-      "path": "/assets/original/lineup-group.jpg",
-      "status": 200,
-      "anchorExists": null
-    },
-    {
       "path": "/precios.html#contenido",
       "status": 200,
       "anchorExists": true
@@ -192,7 +182,7 @@
     "https://www.instagram.com/elite.danceclub",
     "https://www.instagram.com/elmundial.mdp.arg",
     "https://www.instagram.com/ComadrejaProducciones",
-    "https://wa.me/5493512066472?text=Hola%20Rodrigo%21%20Quiero%20inscribirme%20en%20el%20Comadreja%20Battle%20Master%201vs1.",
+    "https://wa.me/5493512066467?text=Hola%20Isa%21%20Quiero%20inscribirme%20en%20el%20Comadreja%20Battle%20Master%201vs1.",
     "https://instagram.com/karenyricardo",
     "https://instagram.com/stephanielucerooffical",
     "https://instagram.com/cl.cristianparedes",
@@ -206,7 +196,6 @@
     "https://www.youtube.com/watch?v=7aqsAMHaa5Y",
     "https://www.youtube.com/watch?v=Q5g_2ngOzIw",
     "https://www.youtube.com/watch?v=WFRqV3ro49U",
-    "https://www.google.com/maps?q=Almafuerte+40,+Villa+Carlos+Paz,+C%C3%B3rdoba",
-    "https://www.google.com/maps?q=Domus+Auditorium+Suites,+Jer%C3%B3nimo+Luis+de+Cabrera+2091,+Villa+Carlos+Paz,+C%C3%B3rdoba"
+    "https://www.google.com/maps?q=Almafuerte+40,+Villa+Carlos+Paz,+C%C3%B3rdoba"
   ]
 }

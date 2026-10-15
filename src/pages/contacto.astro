@@ -6,24 +6,32 @@ import Button from '../components/Button.astro';
 import Picture from '../components/Picture.astro';
 import Video from '../components/Video.astro';
 import Icon from '../components/Icon.astro';
-import Notice from '../components/Notice.astro';
-import { links, socials, videos, conflicts } from '../data/site';
+import { event, links, socials, videos } from '../data/site';
 const contacts = [
   { label: 'Isa · Full Pass', title: 'El congreso completo', description: 'Reservá tu lugar y consultá todas las formas de pago.', href: links.fullPass, action: 'Quiero el Full Pass' },
   { label: 'Isa · El Mundial', title: 'Tu próxima competencia', description: 'Información sobre categorías, precios de inscripción y Final Nacional.', href: links.mundial, action: 'Quiero inscribirme' },
   { label: 'Isa · Asesoramiento', title: 'Hablemos de Comadreja', description: 'Cualquier otra consulta sobre el congreso.', href: links.info, action: 'Más información' },
-  { label: 'Rodrigo Perazolo · Battle Master', title: 'Tu lugar en el 1vs1', description: 'Inscripción directa con Rodrigo Perazolo: 351 206 6472.', href: links.battle, action: 'Escribir a Rodrigo' },
-];
-const locations = [
-  { label: 'Sede publicada en el texto del sitio', name: 'Hotel Estilo MB', address: 'Almafuerte 40, Villa Carlos Paz, Córdoba, Argentina.', map: links.map },
-  { label: 'Sede publicada en el afiche oficial', name: 'Domus Auditorium Suites', address: 'Jerónimo Luis de Cabrera 2091, Villa Carlos Paz, Córdoba, Argentina.', map: 'https://www.google.com/maps?q=Domus+Auditorium+Suites,+Jer%C3%B3nimo+Luis+de+Cabrera+2091,+Villa+Carlos+Paz,+C%C3%B3rdoba' },
+  { label: 'Isa · Battle Master', title: 'Tu lugar en el 1vs1', description: 'Inscripción al Battle Master con Isa: 351 206 6467.', href: links.battle, action: 'Inscribirme con Isa' },
 ];
 ---
-<Layout title="Contacto y ubicación" description="Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.">
-  <PageIntro eyebrow="Estamos para ayudarte" title="Nos vemos" accent="en la pista." description="Escribinos por WhatsApp según lo que necesites, o seguinos en Instagram para conocer las novedades del congreso." number="06" />
+<Layout title="Contacto y ubicación" description="Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.">
+  <PageIntro eyebrow="Estamos para ayudarte" title="Nos vemos" accent="en la pista." description="Todas las inscripciones y consultas se coordinan con Isa. También podés seguirnos en Instagram para conocer las novedades del congreso." number="06" />
   <section class="section cream"><div class="container"><div class="contact-grid">{contacts.map(contact => <article class="contact-item"><span class="eyebrow">{contact.label}</span><h2>{contact.title}</h2><p>{contact.description}</p><Button href={contact.href} variant="wine">{contact.action}</Button></article>)}</div></div></section>
   <section class="section"><div class="container organizer"><Picture name="organizador-rodrigo-perazolo.jpg" alt="Rodrigo Perazolo, organizador de Comadreja Salsa Congress" sizes="240px" /><div><SectionHeading eyebrow="El organizador" title="Rodrigo Perazolo" /><p class="lede">Junto a su familia, Rodrigo creó Comadreja hace más de 25 años y hoy organiza cada edición del congreso: la Final Nacional de El Mundial, el Comadreja Battle Master 1vs1, los talleres, los shows y las noches sociales.</p></div></div></section>
   <section class="section wine"><div class="container"><SectionHeading eyebrow="Seguinos" title="Comadreja, todo el año." /><div class="social-links">{socials.map(social => <a href={social.url} target="_blank" rel="noopener noreferrer"><div><strong>{social.handle}</strong><small>{social.description}</small></div><Icon name="external" /></a>)}</div></div></section>
   <section class="section" id="videos"><div class="container"><SectionHeading eyebrow="Así se vive Comadreja" title="La energía queda para siempre." description="Videos de ediciones anteriores y la presentación de El Mundial." /><div class="video-grid">{videos.map(video => <Video id={video.id} title={video.title} />)}</div><p class="fineprint">Los videos de YouTube se cargan al reproducirlos. También podés abrirlos en su plataforma original.</p></div></section>
-  <section class="section cream" id="ubicacion"><div class="container"><SectionHeading eyebrow="Dónde es" title="Villa Carlos Paz, Córdoba." /><div class="content-gap"><Notice title="Sede pendiente de confirmación">{conflicts.venue} <a href={links.info} target="_blank" rel="noopener noreferrer">Consultar con Isa ↗</a></Notice></div><div class="grid-two content-gap">{locations.map(location => <article class="location-card"><span class="eyebrow">{location.label}</span><h3>{location.name}</h3><p>{location.address}</p><Button href={location.map} variant="wine">Abrir ubicación en Maps</Button><div class="map-frame"><iframe src={`${location.map}&output=embed`} title={`Mapa de ${location.name}, sede publicada pendiente de confirmación`} width="600" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></article>)}</div></div></section>
+  <section class="section cream" id="ubicacion">
+    <div class="container">
+      <SectionHeading eyebrow="Dónde es" title="Villa Carlos Paz, Córdoba." />
+      <div class="grid-two content-gap location-layout">
+        <article class="location-card">
+          <span class="eyebrow">Sede del congreso</span>
+          <h3>{event.venue}</h3>
+          <p>{event.address}, Argentina.</p>
+          <Button href={links.map} variant="wine">Abrir ubicación en Maps</Button>
+        </article>
+        <div class="map-frame"><iframe src={links.mapEmbed} title={`Mapa de ${event.venue}, ${event.address}`} width="600" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+      </div>
+    </div>
+  </section>
 </Layout>
