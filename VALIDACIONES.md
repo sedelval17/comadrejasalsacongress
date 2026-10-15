@@ -78,3 +78,7 @@ Se volvió a ejecutar `npm run check`, `npm run build` y la suite completa despu
 ## Preparación para GitHub Pages en sedelval17
 
 La compilación de revisión se probó con `COMADREJA_SITE_URL=https://sedelval17.github.io`, `COMADREJA_BASE_PATH=/comadrejasalsacongress` y `COMADREJA_PREVIEW=1`. `scripts/validate-pages.mjs` verificó las siete páginas a 375 y 1440 px: 14 combinaciones, navegación móvil, canonical, estado activo, noindex, robots y sitemap. Los 201 destinos/recursos locales recopilados devolvieron HTTP 200, sin escapes de ruta ni desbordamiento. Evidencia en `validation/github-pages.json`. Esto verifica la preparación local; no certifica una publicación remota sin autorización y despliegue.
+
+## Validación del ajuste de legibilidad
+
+Después de aumentar los tamaños se ejecutaron nuevamente `npm run check`, `npm run build` y la suite de producción: 42 combinaciones responsive y 14 análisis Axe, sin fallos; CLS observado 0 en las 42 combinaciones de esta ejecución. Se revisó además la portada a 1100 y 1280 px para comprobar que el menú de 16 px entra completo, y la navegación del cronograma a 375 px: el día seleccionado queda debajo de la barra fija. Capturas de revisión: `validation/screenshots/readability-home-1440.png`, `readability-home-375.png` y `readability-program-375.png`.

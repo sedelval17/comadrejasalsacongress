@@ -42,3 +42,7 @@
 ## Evidencia
 
 Las capturas originales y textos completos están en `research/`; las capturas nuevas y resultados están en `validation/`. **[VALIDACIONES.md](VALIDACIONES.md)** distingue los resultados ejecutados de las limitaciones de servicios externos y de los datos pendientes.
+
+## Ajuste de legibilidad tras la revisión del usuario
+
+Se aumentó el menú de escritorio de 11,68 a 16 px, con peso 600 y mayor contraste. El texto de lectura pasa a 16 px, los botones a 15 px y la información secundaria a 13–15 px; las leyendas decorativas usan 12 px. Se eliminaron las reducciones excesivas en móvil y se apilaron las llamadas a la acción de la portada en pantallas pequeñas. Los titulares y la identidad visual mantienen su escala.
