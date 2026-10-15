@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.venv/
+.env
+.DS_Store
+test-results/
+validation/screenshots/
+research/screenshots/
+research/contact-sheet.jpg

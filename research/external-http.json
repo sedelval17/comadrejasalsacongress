@@ -1,0 +1,506 @@
+[
+  {
+    "url": "https://instagram.com/angelrojas_86",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/angelrojas_86",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://instagram.com/antoniybelenoficial",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/antoniybelenoficial",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://instagram.com/carineyrafael",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/carineyrafael",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://instagram.com/cl.cristianparedes",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/cl.cristianparedes",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://instagram.com/darioburgenescandela",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/darioburgenescandela",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://instagram.com/isidorajacob__",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/isidorajacob__",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://instagram.com/karenyricardo",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/karenyricardo",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://instagram.com/stephanielucerooffical",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/stephanielucerooffical",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://wa.me/5493512066467?text=Hola%20Isa%21%20Quiero%20acceder%20al%20FULL%20PASS%20del%20Comadreja%20Salsa%20Congress%202026.",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/",
+      "https://comadrejaproducciones.com/artistas.html",
+      "https://comadrejaproducciones.com/battle-master.html",
+      "https://comadrejaproducciones.com/contacto.html",
+      "https://comadrejaproducciones.com/el-mundial.html",
+      "https://comadrejaproducciones.com/index.html",
+      "https://comadrejaproducciones.com/precios.html",
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://api.whatsapp.com/send/?phone=5493512066467&text=Hola+Isa%21+Quiero+acceder+al+FULL+PASS+del+Comadreja+Salsa+Congress+2026.&type=phone_number&app_absent=0",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://wa.me/5493512066467?text=Hola%21%20Quiero%20informaci%C3%B3n%20para%20inscribirme%20en%20El%20Mundial%202026%2C%20sede%20C%C3%B3rdoba.",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/",
+      "https://comadrejaproducciones.com/contacto.html",
+      "https://comadrejaproducciones.com/el-mundial.html",
+      "https://comadrejaproducciones.com/index.html",
+      "https://comadrejaproducciones.com/precios.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://api.whatsapp.com/send/?phone=5493512066467&text=Hola%21+Quiero+informaci%C3%B3n+para+inscribirme+en+El+Mundial+2026%2C+sede+C%C3%B3rdoba.&type=phone_number&app_absent=0",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://wa.me/5493512066467?text=Hola%21%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Comadreja%20Salsa%20Congress%202026.",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/",
+      "https://comadrejaproducciones.com/artistas.html",
+      "https://comadrejaproducciones.com/battle-master.html",
+      "https://comadrejaproducciones.com/contacto.html",
+      "https://comadrejaproducciones.com/el-mundial.html",
+      "https://comadrejaproducciones.com/index.html",
+      "https://comadrejaproducciones.com/precios.html",
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://api.whatsapp.com/send/?phone=5493512066467&text=Hola%21+Quiero+m%C3%A1s+informaci%C3%B3n+sobre+el+Comadreja+Salsa+Congress+2026.&type=phone_number&app_absent=0",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://wa.me/5493512066467?text=Hola%21%20Quiero%20reservar%20entrada%20para%20una%20noche%20social%20del%20Comadreja%20Salsa%20Congress%202026.",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/precios.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://api.whatsapp.com/send/?phone=5493512066467&text=Hola%21+Quiero+reservar+entrada+para+una+noche+social+del+Comadreja+Salsa+Congress+2026.&type=phone_number&app_absent=0",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://wa.me/5493512066472?text=Hola%20Rodrigo%21%20Quiero%20inscribirme%20en%20el%20Comadreja%20Battle%20Master%201vs1.",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/battle-master.html",
+      "https://comadrejaproducciones.com/contacto.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://api.whatsapp.com/send/?phone=5493512066472&text=Hola+Rodrigo%21+Quiero+inscribirme+en+el+Comadreja+Battle+Master+1vs1.&type=phone_number&app_absent=0",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.google.com/maps?q=Almafuerte+40,+Villa+Carlos+Paz,+C%C3%B3rdoba&output=embed",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/contacto.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sAlmafuerte+40,+Villa+Carlos+Paz,+C%C3%B3rdoba",
+    "contentType": "text/html; charset=UTF-8",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/ArcenioPrimo",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/ArcenioPrimo",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/ComadrejaProducciones",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/ComadrejaProducciones",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/Deryk712",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/Deryk712",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/EduBoschi",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/EduBoschi",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/GabyMancini_",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/GabyMancini_",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/Gonza_Gonzalez2016",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/Gonza_Gonzalez2016",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/IvanLarRosaOK",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/IvanLarRosaOK",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/PalladiumTuc",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/PalladiumTuc",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/comadrejasalsacongress/?hl=en",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/",
+      "https://comadrejaproducciones.com/artistas.html",
+      "https://comadrejaproducciones.com/battle-master.html",
+      "https://comadrejaproducciones.com/contacto.html",
+      "https://comadrejaproducciones.com/el-mundial.html",
+      "https://comadrejaproducciones.com/index.html",
+      "https://comadrejaproducciones.com/precios.html",
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/comadrejasalsacongress/?hl=en",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/elite.danceclub",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/elite.danceclub",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/elmundial.argentina/?hl=en",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/",
+      "https://comadrejaproducciones.com/artistas.html",
+      "https://comadrejaproducciones.com/battle-master.html",
+      "https://comadrejaproducciones.com/contacto.html",
+      "https://comadrejaproducciones.com/el-mundial.html",
+      "https://comadrejaproducciones.com/index.html",
+      "https://comadrejaproducciones.com/precios.html",
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/elmundial.argentina/?hl=en",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/elmundial.mdp.arg",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/elmundial.mdp.arg",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/elmundial.oficial/?hl=en",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/",
+      "https://comadrejaproducciones.com/artistas.html",
+      "https://comadrejaproducciones.com/battle-master.html",
+      "https://comadrejaproducciones.com/contacto.html",
+      "https://comadrejaproducciones.com/el-mundial.html",
+      "https://comadrejaproducciones.com/index.html",
+      "https://comadrejaproducciones.com/precios.html",
+      "https://comadrejaproducciones.com/talleres.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/elmundial.oficial/?hl=en",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/micaytincho_tym",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/micaytincho_tym",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/ndc_productora",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/ndc_productora",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.instagram.com/yujuy_producciones",
+    "internal": false,
+    "sources": [
+      "https://comadrejaproducciones.com/el-mundial.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.instagram.com/yujuy_producciones",
+    "contentType": "text/html; charset=\"utf-8\"",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active."
+  },
+  {
+    "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Q8_uu1Bvp50&format=json",
+    "sources": [
+      "https://comadrejaproducciones.com/contacto.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Q8_uu1Bvp50&format=json",
+    "contentType": "application/json",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active.",
+    "metadata": {
+      "title": "Comadreja Salsa Congress 2012 ~ What'a Flegs",
+      "author_name": "reken77",
+      "author_url": "https://www.youtube.com/@reken77",
+      "type": "video",
+      "height": 113,
+      "width": 200,
+      "version": "1.0",
+      "provider_name": "YouTube",
+      "provider_url": "https://www.youtube.com/",
+      "thumbnail_height": 360,
+      "thumbnail_width": 480,
+      "thumbnail_url": "https://i.ytimg.com/vi/Q8_uu1Bvp50/hqdefault.jpg",
+      "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Q8_uu1Bvp50?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Comadreja Salsa Congress 2012 ~ What&#39;a Flegs\"></iframe>"
+    }
+  },
+  {
+    "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=7aqsAMHaa5Y&format=json",
+    "sources": [
+      "https://comadrejaproducciones.com/contacto.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=7aqsAMHaa5Y&format=json",
+    "contentType": "application/json",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active.",
+    "metadata": {
+      "title": "Comadreja Salsa Congress 2012 ~ Comadreja Staff (Kímbara)",
+      "author_name": "reken77",
+      "author_url": "https://www.youtube.com/@reken77",
+      "type": "video",
+      "height": 113,
+      "width": 200,
+      "version": "1.0",
+      "provider_name": "YouTube",
+      "provider_url": "https://www.youtube.com/",
+      "thumbnail_height": 360,
+      "thumbnail_width": 480,
+      "thumbnail_url": "https://i.ytimg.com/vi/7aqsAMHaa5Y/hqdefault.jpg",
+      "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/7aqsAMHaa5Y?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Comadreja Salsa Congress 2012 ~ Comadreja Staff (Kímbara)\"></iframe>"
+    }
+  },
+  {
+    "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Q5g_2ngOzIw&format=json",
+    "sources": [
+      "https://comadrejaproducciones.com/contacto.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Q5g_2ngOzIw&format=json",
+    "contentType": "application/json",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active.",
+    "metadata": {
+      "title": "Comadreja Salsa Congress 2015 ~ Karen Forcano & Ricardo Vega",
+      "author_name": "reken77",
+      "author_url": "https://www.youtube.com/@reken77",
+      "type": "video",
+      "height": 113,
+      "width": 200,
+      "version": "1.0",
+      "provider_name": "YouTube",
+      "provider_url": "https://www.youtube.com/",
+      "thumbnail_height": 360,
+      "thumbnail_width": 480,
+      "thumbnail_url": "https://i.ytimg.com/vi/Q5g_2ngOzIw/hqdefault.jpg",
+      "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Q5g_2ngOzIw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Comadreja Salsa Congress 2015 ~ Karen Forcano &amp; Ricardo Vega\"></iframe>"
+    }
+  },
+  {
+    "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=WFRqV3ro49U&format=json",
+    "sources": [
+      "https://comadrejaproducciones.com/contacto.html"
+    ],
+    "status": 200,
+    "finalUrl": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=WFRqV3ro49U&format=json",
+    "contentType": "application/json",
+    "method": "GET",
+    "note": "HTTP response does not establish that an account or business is active.",
+    "metadata": {
+      "title": "EL MUNDIAL 2026",
+      "author_name": "Karen y Ricardo Oficial",
+      "author_url": "https://www.youtube.com/@KarenyRicardooficial",
+      "type": "video",
+      "height": 113,
+      "width": 200,
+      "version": "1.0",
+      "provider_name": "YouTube",
+      "provider_url": "https://www.youtube.com/",
+      "thumbnail_height": 360,
+      "thumbnail_width": 480,
+      "thumbnail_url": "https://i.ytimg.com/vi/WFRqV3ro49U/hqdefault.jpg",
+      "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/WFRqV3ro49U?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"EL MUNDIAL 2026\"></iframe>"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "images": 48,
+  "originalBytes": 11772127,
+  "largestWebpBytes": 4326094,
+  "reductionPercent": 63,
+  "note": "Total comparable: one largest WebP per source. Additional AVIF and responsive variants are stored separately."
+}

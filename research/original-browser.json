@@ -1,0 +1,128 @@
+[
+  {
+    "route": "index",
+    "width": 375,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 9
+  },
+  {
+    "route": "el-mundial",
+    "width": 375,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 4
+  },
+  {
+    "route": "battle-master",
+    "width": 375,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 3
+  },
+  {
+    "route": "talleres",
+    "width": 375,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 12
+  },
+  {
+    "route": "artistas",
+    "width": 375,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 26
+  },
+  {
+    "route": "precios",
+    "width": 375,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 3
+  },
+  {
+    "route": "contacto",
+    "width": 375,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 5
+  },
+  {
+    "route": "index",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 9
+  },
+  {
+    "route": "el-mundial",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 4
+  },
+  {
+    "route": "battle-master",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 3
+  },
+  {
+    "route": "talleres",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 12
+  },
+  {
+    "route": "artistas",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 26
+  },
+  {
+    "route": "precios",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 3
+  },
+  {
+    "route": "contacto",
+    "width": 1440,
+    "status": 200,
+    "errors": [],
+    "overflow": false,
+    "brokenImages": [],
+    "imagesWithoutDimensions": 5
+  }
+]

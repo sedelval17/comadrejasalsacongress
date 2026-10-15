@@ -1,0 +1,10 @@
+{
+  "url": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap",
+  "status": 200,
+  "contentType": "text/css; charset=utf-8",
+  "families": [
+    "Cinzel",
+    "Montserrat"
+  ],
+  "note": "Original remote font CSS archived for audit. Font files are not used by the reconstructed application merely because they appear here."
+}

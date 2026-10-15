@@ -1,0 +1,23 @@
+{
+  "testedAt": "2026-10-15T15:03:30.671Z",
+  "origin": "http://localhost:4322",
+  "prefix": "/comadrejasalsacongress",
+  "screenshots": [
+    "validation/screenshots/pages/index-375.png",
+    "validation/screenshots/pages/el-mundial-375.png",
+    "validation/screenshots/pages/battle-master-375.png",
+    "validation/screenshots/pages/talleres-375.png",
+    "validation/screenshots/pages/artistas-375.png",
+    "validation/screenshots/pages/precios-375.png",
+    "validation/screenshots/pages/contacto-375.png",
+    "validation/screenshots/pages/index-1440.png",
+    "validation/screenshots/pages/el-mundial-1440.png",
+    "validation/screenshots/pages/battle-master-1440.png",
+    "validation/screenshots/pages/talleres-1440.png",
+    "validation/screenshots/pages/artistas-1440.png",
+    "validation/screenshots/pages/precios-1440.png",
+    "validation/screenshots/pages/contacto-1440.png"
+  ],
+  "resourceCount": 201,
+  "failures": []
+}

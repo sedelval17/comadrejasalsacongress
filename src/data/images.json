@@ -1,0 +1,1028 @@
+{
+  "artist-angel-carly.jpg": {
+    "width": 746,
+    "height": 1018,
+    "original": "/assets/original/artist-angel-carly.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-angel-carly-320.webp",
+        "avif": "/assets/images/artist-angel-carly-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-angel-carly-640.webp",
+        "avif": "/assets/images/artist-angel-carly-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-angel-carly-746.webp",
+        "avif": "/assets/images/artist-angel-carly-746.avif"
+      }
+    ]
+  },
+  "artist-antoni-belen.jpg": {
+    "width": 552,
+    "height": 747,
+    "original": "/assets/original/artist-antoni-belen.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-antoni-belen-320.webp",
+        "avif": "/assets/images/artist-antoni-belen-320.avif"
+      },
+      {
+        "width": 552,
+        "webp": "/assets/images/artist-antoni-belen-552.webp",
+        "avif": "/assets/images/artist-antoni-belen-552.avif"
+      }
+    ]
+  },
+  "artist-cami-blanes.jpg": {
+    "width": 746,
+    "height": 995,
+    "original": "/assets/original/artist-cami-blanes.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-cami-blanes-320.webp",
+        "avif": "/assets/images/artist-cami-blanes-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-cami-blanes-640.webp",
+        "avif": "/assets/images/artist-cami-blanes-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-cami-blanes-746.webp",
+        "avif": "/assets/images/artist-cami-blanes-746.avif"
+      }
+    ]
+  },
+  "artist-carine-rafael.jpg": {
+    "width": 552,
+    "height": 722,
+    "original": "/assets/original/artist-carine-rafael.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-carine-rafael-320.webp",
+        "avif": "/assets/images/artist-carine-rafael-320.avif"
+      },
+      {
+        "width": 552,
+        "webp": "/assets/images/artist-carine-rafael-552.webp",
+        "avif": "/assets/images/artist-carine-rafael-552.avif"
+      }
+    ]
+  },
+  "artist-dario-burgenes.jpg": {
+    "width": 746,
+    "height": 1014,
+    "original": "/assets/original/artist-dario-burgenes.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-dario-burgenes-320.webp",
+        "avif": "/assets/images/artist-dario-burgenes-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-dario-burgenes-640.webp",
+        "avif": "/assets/images/artist-dario-burgenes-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-dario-burgenes-746.webp",
+        "avif": "/assets/images/artist-dario-burgenes-746.avif"
+      }
+    ]
+  },
+  "artist-fabian-laura.jpg": {
+    "width": 746,
+    "height": 1003,
+    "original": "/assets/original/artist-fabian-laura.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-fabian-laura-320.webp",
+        "avif": "/assets/images/artist-fabian-laura-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-fabian-laura-640.webp",
+        "avif": "/assets/images/artist-fabian-laura-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-fabian-laura-746.webp",
+        "avif": "/assets/images/artist-fabian-laura-746.avif"
+      }
+    ]
+  },
+  "artist-gabriela-mancini.jpg": {
+    "width": 746,
+    "height": 1031,
+    "original": "/assets/original/artist-gabriela-mancini.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-gabriela-mancini-320.webp",
+        "avif": "/assets/images/artist-gabriela-mancini-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-gabriela-mancini-640.webp",
+        "avif": "/assets/images/artist-gabriela-mancini-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-gabriela-mancini-746.webp",
+        "avif": "/assets/images/artist-gabriela-mancini-746.avif"
+      }
+    ]
+  },
+  "artist-guaracheros-dc.jpg": {
+    "width": 746,
+    "height": 988,
+    "original": "/assets/original/artist-guaracheros-dc.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-guaracheros-dc-320.webp",
+        "avif": "/assets/images/artist-guaracheros-dc-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-guaracheros-dc-640.webp",
+        "avif": "/assets/images/artist-guaracheros-dc-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-guaracheros-dc-746.webp",
+        "avif": "/assets/images/artist-guaracheros-dc-746.avif"
+      }
+    ]
+  },
+  "artist-isidora-cristian.jpg": {
+    "width": 746,
+    "height": 1029,
+    "original": "/assets/original/artist-isidora-cristian.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-isidora-cristian-320.webp",
+        "avif": "/assets/images/artist-isidora-cristian-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-isidora-cristian-640.webp",
+        "avif": "/assets/images/artist-isidora-cristian-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-isidora-cristian-746.webp",
+        "avif": "/assets/images/artist-isidora-cristian-746.avif"
+      }
+    ]
+  },
+  "artist-ivan-silvana.jpg": {
+    "width": 746,
+    "height": 1009,
+    "original": "/assets/original/artist-ivan-silvana.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-ivan-silvana-320.webp",
+        "avif": "/assets/images/artist-ivan-silvana-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-ivan-silvana-640.webp",
+        "avif": "/assets/images/artist-ivan-silvana-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-ivan-silvana-746.webp",
+        "avif": "/assets/images/artist-ivan-silvana-746.avif"
+      }
+    ]
+  },
+  "artist-jose-maria-onaindia.jpg": {
+    "width": 746,
+    "height": 1020,
+    "original": "/assets/original/artist-jose-maria-onaindia.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-jose-maria-onaindia-320.webp",
+        "avif": "/assets/images/artist-jose-maria-onaindia-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-jose-maria-onaindia-640.webp",
+        "avif": "/assets/images/artist-jose-maria-onaindia-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-jose-maria-onaindia-746.webp",
+        "avif": "/assets/images/artist-jose-maria-onaindia-746.avif"
+      }
+    ]
+  },
+  "artist-juan-de-la-cruz.jpg": {
+    "width": 746,
+    "height": 1000,
+    "original": "/assets/original/artist-juan-de-la-cruz.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-juan-de-la-cruz-320.webp",
+        "avif": "/assets/images/artist-juan-de-la-cruz-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-juan-de-la-cruz-640.webp",
+        "avif": "/assets/images/artist-juan-de-la-cruz-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-juan-de-la-cruz-746.webp",
+        "avif": "/assets/images/artist-juan-de-la-cruz-746.avif"
+      }
+    ]
+  },
+  "artist-julieta-enzo.jpg": {
+    "width": 746,
+    "height": 996,
+    "original": "/assets/original/artist-julieta-enzo.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-julieta-enzo-320.webp",
+        "avif": "/assets/images/artist-julieta-enzo-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-julieta-enzo-640.webp",
+        "avif": "/assets/images/artist-julieta-enzo-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-julieta-enzo-746.webp",
+        "avif": "/assets/images/artist-julieta-enzo-746.avif"
+      }
+    ]
+  },
+  "artist-karen-ricardo.jpg": {
+    "width": 1000,
+    "height": 1499,
+    "original": "/assets/original/artist-karen-ricardo.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-karen-ricardo-320.webp",
+        "avif": "/assets/images/artist-karen-ricardo-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-karen-ricardo-640.webp",
+        "avif": "/assets/images/artist-karen-ricardo-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/artist-karen-ricardo-960.webp",
+        "avif": "/assets/images/artist-karen-ricardo-960.avif"
+      },
+      {
+        "width": 1000,
+        "webp": "/assets/images/artist-karen-ricardo-1000.webp",
+        "avif": "/assets/images/artist-karen-ricardo-1000.avif"
+      }
+    ]
+  },
+  "artist-lucas-lula.jpg": {
+    "width": 746,
+    "height": 995,
+    "original": "/assets/original/artist-lucas-lula.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-lucas-lula-320.webp",
+        "avif": "/assets/images/artist-lucas-lula-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-lucas-lula-640.webp",
+        "avif": "/assets/images/artist-lucas-lula-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-lucas-lula-746.webp",
+        "avif": "/assets/images/artist-lucas-lula-746.avif"
+      }
+    ]
+  },
+  "artist-nacho-vega.jpg": {
+    "width": 746,
+    "height": 988,
+    "original": "/assets/original/artist-nacho-vega.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-nacho-vega-320.webp",
+        "avif": "/assets/images/artist-nacho-vega-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-nacho-vega-640.webp",
+        "avif": "/assets/images/artist-nacho-vega-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-nacho-vega-746.webp",
+        "avif": "/assets/images/artist-nacho-vega-746.avif"
+      }
+    ]
+  },
+  "artist-santiago-davor.jpg": {
+    "width": 746,
+    "height": 1020,
+    "original": "/assets/original/artist-santiago-davor.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-santiago-davor-320.webp",
+        "avif": "/assets/images/artist-santiago-davor-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-santiago-davor-640.webp",
+        "avif": "/assets/images/artist-santiago-davor-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-santiago-davor-746.webp",
+        "avif": "/assets/images/artist-santiago-davor-746.avif"
+      }
+    ]
+  },
+  "artist-stephanie-lucero.jpg": {
+    "width": 746,
+    "height": 1027,
+    "original": "/assets/original/artist-stephanie-lucero.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-stephanie-lucero-320.webp",
+        "avif": "/assets/images/artist-stephanie-lucero-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-stephanie-lucero-640.webp",
+        "avif": "/assets/images/artist-stephanie-lucero-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-stephanie-lucero-746.webp",
+        "avif": "/assets/images/artist-stephanie-lucero-746.avif"
+      }
+    ]
+  },
+  "artist-victoria-jorge.jpg": {
+    "width": 746,
+    "height": 998,
+    "original": "/assets/original/artist-victoria-jorge.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-victoria-jorge-320.webp",
+        "avif": "/assets/images/artist-victoria-jorge-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-victoria-jorge-640.webp",
+        "avif": "/assets/images/artist-victoria-jorge-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-victoria-jorge-746.webp",
+        "avif": "/assets/images/artist-victoria-jorge-746.avif"
+      }
+    ]
+  },
+  "artist-william-corona.jpg": {
+    "width": 746,
+    "height": 1020,
+    "original": "/assets/original/artist-william-corona.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/artist-william-corona-320.webp",
+        "avif": "/assets/images/artist-william-corona-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/artist-william-corona-640.webp",
+        "avif": "/assets/images/artist-william-corona-640.avif"
+      },
+      {
+        "width": 746,
+        "webp": "/assets/images/artist-william-corona-746.webp",
+        "avif": "/assets/images/artist-william-corona-746.avif"
+      }
+    ]
+  },
+  "decor-decor-01.png": {
+    "width": 424,
+    "height": 1192,
+    "original": "/assets/original/decor-decor-01.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-01-320.webp",
+        "avif": "/assets/images/decor-decor-01-320.avif"
+      },
+      {
+        "width": 424,
+        "webp": "/assets/images/decor-decor-01-424.webp",
+        "avif": "/assets/images/decor-decor-01-424.avif"
+      }
+    ]
+  },
+  "decor-decor-02.png": {
+    "width": 403,
+    "height": 1144,
+    "original": "/assets/original/decor-decor-02.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-02-320.webp",
+        "avif": "/assets/images/decor-decor-02-320.avif"
+      },
+      {
+        "width": 403,
+        "webp": "/assets/images/decor-decor-02-403.webp",
+        "avif": "/assets/images/decor-decor-02-403.avif"
+      }
+    ]
+  },
+  "decor-decor-03.png": {
+    "width": 563,
+    "height": 1175,
+    "original": "/assets/original/decor-decor-03.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-03-320.webp",
+        "avif": "/assets/images/decor-decor-03-320.avif"
+      },
+      {
+        "width": 563,
+        "webp": "/assets/images/decor-decor-03-563.webp",
+        "avif": "/assets/images/decor-decor-03-563.avif"
+      }
+    ]
+  },
+  "decor-decor-04.png": {
+    "width": 474,
+    "height": 1009,
+    "original": "/assets/original/decor-decor-04.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-04-320.webp",
+        "avif": "/assets/images/decor-decor-04-320.avif"
+      },
+      {
+        "width": 474,
+        "webp": "/assets/images/decor-decor-04-474.webp",
+        "avif": "/assets/images/decor-decor-04-474.avif"
+      }
+    ]
+  },
+  "decor-decor-05.png": {
+    "width": 573,
+    "height": 1017,
+    "original": "/assets/original/decor-decor-05.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-05-320.webp",
+        "avif": "/assets/images/decor-decor-05-320.avif"
+      },
+      {
+        "width": 573,
+        "webp": "/assets/images/decor-decor-05-573.webp",
+        "avif": "/assets/images/decor-decor-05-573.avif"
+      }
+    ]
+  },
+  "decor-decor-06.png": {
+    "width": 549,
+    "height": 1107,
+    "original": "/assets/original/decor-decor-06.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-06-320.webp",
+        "avif": "/assets/images/decor-decor-06-320.avif"
+      },
+      {
+        "width": 549,
+        "webp": "/assets/images/decor-decor-06-549.webp",
+        "avif": "/assets/images/decor-decor-06-549.avif"
+      }
+    ]
+  },
+  "decor-decor-07.png": {
+    "width": 358,
+    "height": 1116,
+    "original": "/assets/original/decor-decor-07.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-07-320.webp",
+        "avif": "/assets/images/decor-decor-07-320.avif"
+      },
+      {
+        "width": 358,
+        "webp": "/assets/images/decor-decor-07-358.webp",
+        "avif": "/assets/images/decor-decor-07-358.avif"
+      }
+    ]
+  },
+  "decor-decor-11.jpg": {
+    "width": 1973,
+    "height": 3883,
+    "original": "/assets/original/decor-decor-11.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-11-320.webp",
+        "avif": "/assets/images/decor-decor-11-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/decor-decor-11-640.webp",
+        "avif": "/assets/images/decor-decor-11-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/decor-decor-11-960.webp",
+        "avif": "/assets/images/decor-decor-11-960.avif"
+      },
+      {
+        "width": 1280,
+        "webp": "/assets/images/decor-decor-11-1280.webp",
+        "avif": "/assets/images/decor-decor-11-1280.avif"
+      }
+    ]
+  },
+  "decor-decor-12.png": {
+    "width": 512,
+    "height": 820,
+    "original": "/assets/original/decor-decor-12.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/decor-decor-12-320.webp",
+        "avif": "/assets/images/decor-decor-12-320.avif"
+      },
+      {
+        "width": 512,
+        "webp": "/assets/images/decor-decor-12-512.webp",
+        "avif": "/assets/images/decor-decor-12-512.avif"
+      }
+    ]
+  },
+  "dj-lineup.jpg": {
+    "width": 1080,
+    "height": 1345,
+    "original": "/assets/original/dj-lineup.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/dj-lineup-320.webp",
+        "avif": "/assets/images/dj-lineup-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/dj-lineup-640.webp",
+        "avif": "/assets/images/dj-lineup-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/dj-lineup-960.webp",
+        "avif": "/assets/images/dj-lineup-960.avif"
+      },
+      {
+        "width": 1080,
+        "webp": "/assets/images/dj-lineup-1080.webp",
+        "avif": "/assets/images/dj-lineup-1080.avif"
+      }
+    ]
+  },
+  "group-bailatino.jpg": {
+    "width": 1350,
+    "height": 996,
+    "original": "/assets/original/group-bailatino.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/group-bailatino-320.webp",
+        "avif": "/assets/images/group-bailatino-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/group-bailatino-640.webp",
+        "avif": "/assets/images/group-bailatino-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/group-bailatino-960.webp",
+        "avif": "/assets/images/group-bailatino-960.avif"
+      },
+      {
+        "width": 1280,
+        "webp": "/assets/images/group-bailatino-1280.webp",
+        "avif": "/assets/images/group-bailatino-1280.avif"
+      }
+    ]
+  },
+  "group-locutores.jpg": {
+    "width": 1350,
+    "height": 980,
+    "original": "/assets/original/group-locutores.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/group-locutores-320.webp",
+        "avif": "/assets/images/group-locutores-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/group-locutores-640.webp",
+        "avif": "/assets/images/group-locutores-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/group-locutores-960.webp",
+        "avif": "/assets/images/group-locutores-960.avif"
+      },
+      {
+        "width": 1280,
+        "webp": "/assets/images/group-locutores-1280.webp",
+        "avif": "/assets/images/group-locutores-1280.avif"
+      }
+    ]
+  },
+  "group-mi-mambo.jpg": {
+    "width": 1350,
+    "height": 910,
+    "original": "/assets/original/group-mi-mambo.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/group-mi-mambo-320.webp",
+        "avif": "/assets/images/group-mi-mambo-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/group-mi-mambo-640.webp",
+        "avif": "/assets/images/group-mi-mambo-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/group-mi-mambo-960.webp",
+        "avif": "/assets/images/group-mi-mambo-960.avif"
+      },
+      {
+        "width": 1280,
+        "webp": "/assets/images/group-mi-mambo-1280.webp",
+        "avif": "/assets/images/group-mi-mambo-1280.avif"
+      }
+    ]
+  },
+  "hero-congreso.jpg": {
+    "width": 585,
+    "height": 750,
+    "original": "/assets/original/hero-congreso.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/hero-congreso-320.webp",
+        "avif": "/assets/images/hero-congreso-320.avif"
+      },
+      {
+        "width": 585,
+        "webp": "/assets/images/hero-congreso-585.webp",
+        "avif": "/assets/images/hero-congreso-585.avif"
+      }
+    ]
+  },
+  "lineup-group.jpg": {
+    "width": 1080,
+    "height": 1920,
+    "original": "/assets/original/lineup-group.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/lineup-group-320.webp",
+        "avif": "/assets/images/lineup-group-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/lineup-group-640.webp",
+        "avif": "/assets/images/lineup-group-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/lineup-group-960.webp",
+        "avif": "/assets/images/lineup-group-960.avif"
+      },
+      {
+        "width": 1080,
+        "webp": "/assets/images/lineup-group-1080.webp",
+        "avif": "/assets/images/lineup-group-1080.avif"
+      }
+    ]
+  },
+  "logo-2026.png": {
+    "width": 275,
+    "height": 88,
+    "original": "/assets/original/logo-2026.png",
+    "variants": [
+      {
+        "width": 275,
+        "webp": "/assets/images/logo-2026-275.webp",
+        "avif": "/assets/images/logo-2026-275.avif"
+      }
+    ]
+  },
+  "logo-comadreja.png": {
+    "width": 1470,
+    "height": 280,
+    "original": "/assets/original/logo-comadreja.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/logo-comadreja-320.webp",
+        "avif": "/assets/images/logo-comadreja-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/logo-comadreja-640.webp",
+        "avif": "/assets/images/logo-comadreja-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/logo-comadreja-960.webp",
+        "avif": "/assets/images/logo-comadreja-960.avif"
+      },
+      {
+        "width": 1280,
+        "webp": "/assets/images/logo-comadreja-1280.webp",
+        "avif": "/assets/images/logo-comadreja-1280.avif"
+      }
+    ]
+  },
+  "logo-congress.png": {
+    "width": 1325,
+    "height": 274,
+    "original": "/assets/original/logo-congress.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/logo-congress-320.webp",
+        "avif": "/assets/images/logo-congress-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/logo-congress-640.webp",
+        "avif": "/assets/images/logo-congress-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/logo-congress-960.webp",
+        "avif": "/assets/images/logo-congress-960.avif"
+      },
+      {
+        "width": 1280,
+        "webp": "/assets/images/logo-congress-1280.webp",
+        "avif": "/assets/images/logo-congress-1280.avif"
+      }
+    ]
+  },
+  "logo-salsa.png": {
+    "width": 590,
+    "height": 199,
+    "original": "/assets/original/logo-salsa.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/logo-salsa-320.webp",
+        "avif": "/assets/images/logo-salsa-320.avif"
+      },
+      {
+        "width": 590,
+        "webp": "/assets/images/logo-salsa-590.webp",
+        "avif": "/assets/images/logo-salsa-590.avif"
+      }
+    ]
+  },
+  "logo.png": {
+    "width": 700,
+    "height": 197,
+    "original": "/assets/original/logo.png",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/logo-320.webp",
+        "avif": "/assets/images/logo-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/logo-640.webp",
+        "avif": "/assets/images/logo-640.avif"
+      },
+      {
+        "width": 700,
+        "webp": "/assets/images/logo-700.webp",
+        "avif": "/assets/images/logo-700.avif"
+      }
+    ]
+  },
+  "mundial-bg-1.jpg": {
+    "width": 1080,
+    "height": 1920,
+    "original": "/assets/original/mundial-bg-1.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/mundial-bg-1-320.webp",
+        "avif": "/assets/images/mundial-bg-1-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/mundial-bg-1-640.webp",
+        "avif": "/assets/images/mundial-bg-1-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/mundial-bg-1-960.webp",
+        "avif": "/assets/images/mundial-bg-1-960.avif"
+      },
+      {
+        "width": 1080,
+        "webp": "/assets/images/mundial-bg-1-1080.webp",
+        "avif": "/assets/images/mundial-bg-1-1080.avif"
+      }
+    ]
+  },
+  "organizador-rodrigo-perazolo.jpg": {
+    "width": 870,
+    "height": 1146,
+    "original": "/assets/original/organizador-rodrigo-perazolo.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/organizador-rodrigo-perazolo-320.webp",
+        "avif": "/assets/images/organizador-rodrigo-perazolo-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/organizador-rodrigo-perazolo-640.webp",
+        "avif": "/assets/images/organizador-rodrigo-perazolo-640.avif"
+      },
+      {
+        "width": 870,
+        "webp": "/assets/images/organizador-rodrigo-perazolo-870.webp",
+        "avif": "/assets/images/organizador-rodrigo-perazolo-870.avif"
+      }
+    ]
+  },
+  "stage-bg.jpg": {
+    "width": 1080,
+    "height": 1920,
+    "original": "/assets/original/stage-bg.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/stage-bg-320.webp",
+        "avif": "/assets/images/stage-bg-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/stage-bg-640.webp",
+        "avif": "/assets/images/stage-bg-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/stage-bg-960.webp",
+        "avif": "/assets/images/stage-bg-960.avif"
+      },
+      {
+        "width": 1080,
+        "webp": "/assets/images/stage-bg-1080.webp",
+        "avif": "/assets/images/stage-bg-1080.avif"
+      }
+    ]
+  },
+  "vi-7aqsAMHaa5Y-hqdefault.jpg": {
+    "width": 480,
+    "height": 360,
+    "original": "/assets/original/vi-7aqsAMHaa5Y-hqdefault.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/vi-7aqsAMHaa5Y-hqdefault-320.webp",
+        "avif": "/assets/images/vi-7aqsAMHaa5Y-hqdefault-320.avif"
+      },
+      {
+        "width": 480,
+        "webp": "/assets/images/vi-7aqsAMHaa5Y-hqdefault-480.webp",
+        "avif": "/assets/images/vi-7aqsAMHaa5Y-hqdefault-480.avif"
+      }
+    ]
+  },
+  "vi-Q5g_2ngOzIw-hqdefault.jpg": {
+    "width": 480,
+    "height": 360,
+    "original": "/assets/original/vi-Q5g_2ngOzIw-hqdefault.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/vi-Q5g_2ngOzIw-hqdefault-320.webp",
+        "avif": "/assets/images/vi-Q5g_2ngOzIw-hqdefault-320.avif"
+      },
+      {
+        "width": 480,
+        "webp": "/assets/images/vi-Q5g_2ngOzIw-hqdefault-480.webp",
+        "avif": "/assets/images/vi-Q5g_2ngOzIw-hqdefault-480.avif"
+      }
+    ]
+  },
+  "vi-Q8_uu1Bvp50-hqdefault.jpg": {
+    "width": 480,
+    "height": 360,
+    "original": "/assets/original/vi-Q8_uu1Bvp50-hqdefault.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/vi-Q8_uu1Bvp50-hqdefault-320.webp",
+        "avif": "/assets/images/vi-Q8_uu1Bvp50-hqdefault-320.avif"
+      },
+      {
+        "width": 480,
+        "webp": "/assets/images/vi-Q8_uu1Bvp50-hqdefault-480.webp",
+        "avif": "/assets/images/vi-Q8_uu1Bvp50-hqdefault-480.avif"
+      }
+    ]
+  },
+  "vi-WFRqV3ro49U-hqdefault.jpg": {
+    "width": 480,
+    "height": 360,
+    "original": "/assets/original/vi-WFRqV3ro49U-hqdefault.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/vi-WFRqV3ro49U-hqdefault-320.webp",
+        "avif": "/assets/images/vi-WFRqV3ro49U-hqdefault-320.avif"
+      },
+      {
+        "width": 480,
+        "webp": "/assets/images/vi-WFRqV3ro49U-hqdefault-480.webp",
+        "avif": "/assets/images/vi-WFRqV3ro49U-hqdefault-480.avif"
+      }
+    ]
+  },
+  "video-poster.jpg": {
+    "width": 1280,
+    "height": 2270,
+    "original": "/assets/original/video-poster.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/video-poster-320.webp",
+        "avif": "/assets/images/video-poster-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/video-poster-640.webp",
+        "avif": "/assets/images/video-poster-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/video-poster-960.webp",
+        "avif": "/assets/images/video-poster-960.avif"
+      },
+      {
+        "width": 1280,
+        "webp": "/assets/images/video-poster-1280.webp",
+        "avif": "/assets/images/video-poster-1280.avif"
+      }
+    ]
+  }
+}

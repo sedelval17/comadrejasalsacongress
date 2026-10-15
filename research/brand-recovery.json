@@ -1,0 +1,13 @@
+{
+  "source": "https://comadrejaproducciones.com/assets/img/lineup-group.jpg",
+  "original": "public/assets/original/lineup-group.jpg",
+  "output": "public/assets/brand/wordmark-from-official-poster.webp",
+  "crop": {
+    "left": 250,
+    "top": 95,
+    "width": 580,
+    "height": 165
+  },
+  "method": "Extracción rectangular sin ampliar ni sintetizar píxeles; conserva fondo y marca completos del afiche. Evita los logos recortados de origen.",
+  "originalUntouched": true
+}

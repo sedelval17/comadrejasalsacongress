@@ -1,0 +1,5 @@
+---
+interface Props { eyebrow: string; title: string; accent?: string; description: string; number: string; }
+const { eyebrow, title, accent, description, number } = Astro.props;
+---
+<section class="page-intro"><div class="container"><div class="intro-top"><span class="eyebrow">{eyebrow}</span><span class="edition">COMADREJA / 2026 <span aria-hidden="true">✦</span></span></div><div class="intro-grid"><h1>{title}{accent && <><br /><span>{accent}</span></>}</h1><div class="intro-copy"><p>{description}</p><slot /></div></div><span class="section-index" aria-hidden="true">{number} / CONGRESO</span></div></section>

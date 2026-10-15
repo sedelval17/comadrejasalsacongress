@@ -1,0 +1,6 @@
+---
+import Button from './Button.astro';
+interface Props { competition: string; href: string; }
+const { competition, href } = Astro.props;
+---
+<div class="rulebook"><div><span class="eyebrow">Reglamento · {competition}</span><h3>Consultá el reglamento completo</h3><p>El documento enlazado en el sitio original no está disponible. Solicitá la versión vigente a la organización para conocer todas las condiciones antes de competir.</p></div><Button href={href} variant="outline">Solicitar reglamento</Button></div>

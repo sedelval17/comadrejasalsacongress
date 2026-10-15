@@ -1,0 +1,212 @@
+{
+  "internal": [
+    {
+      "path": "/#contenido",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/el-mundial.html",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/battle-master.html",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/talleres.html",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/artistas.html",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/precios.html",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/contacto.html",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/talleres.html#jueves",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/talleres.html#viernes",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/talleres.html#sabado",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/talleres.html#domingo",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/contacto.html#videos",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/assets/original/assets-video-resumen-congreso.mp4",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/contacto.html#ubicacion",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/el-mundial.html#contenido",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/el-mundial.html#reglamento",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/battle-master.html#contenido",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/battle-master.html#reglamento",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/talleres.html#contenido",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/talleres.html#talleres",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/artistas.html#djs",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/artistas.html#contenido",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/artistas.html#internacionales",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/artistas.html#grilla",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/artistas.html#companias",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/artistas.html#conduccion",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/artistas.html#afiche",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/assets/original/lineup-group.jpg",
+      "status": 200,
+      "anchorExists": null
+    },
+    {
+      "path": "/precios.html#contenido",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/contacto.html#contenido",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "path": "/index.html",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/404.html",
+      "status": 200
+    }
+  ],
+  "externalPreserved": [
+    "https://wa.me/5493512066467?text=Hola%20Isa%21%20Quiero%20acceder%20al%20FULL%20PASS%20del%20Comadreja%20Salsa%20Congress%202026.",
+    "https://wa.me/5493512066467?text=Hola%21%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Comadreja%20Salsa%20Congress%202026.",
+    "https://www.instagram.com/comadrejasalsacongress/?hl=en",
+    "https://www.instagram.com/elmundial.argentina/?hl=en",
+    "https://www.instagram.com/elmundial.oficial/?hl=en",
+    "https://wa.me/5493512066467?text=Hola%21%20Quiero%20informaci%C3%B3n%20para%20inscribirme%20en%20El%20Mundial%202026%2C%20sede%20C%C3%B3rdoba.",
+    "https://www.instagram.com/yujuy_producciones",
+    "https://www.instagram.com/micaytincho_tym",
+    "https://www.instagram.com/ndc_productora",
+    "https://www.instagram.com/Gonza_Gonzalez2016",
+    "https://www.instagram.com/GabyMancini_",
+    "https://www.instagram.com/Deryk712",
+    "https://www.instagram.com/PalladiumTuc",
+    "https://www.instagram.com/EduBoschi",
+    "https://www.instagram.com/IvanLarRosaOK",
+    "https://www.instagram.com/ArcenioPrimo",
+    "https://www.instagram.com/elite.danceclub",
+    "https://www.instagram.com/elmundial.mdp.arg",
+    "https://www.instagram.com/ComadrejaProducciones",
+    "https://wa.me/5493512066472?text=Hola%20Rodrigo%21%20Quiero%20inscribirme%20en%20el%20Comadreja%20Battle%20Master%201vs1.",
+    "https://instagram.com/karenyricardo",
+    "https://instagram.com/stephanielucerooffical",
+    "https://instagram.com/cl.cristianparedes",
+    "https://instagram.com/isidorajacob__",
+    "https://instagram.com/carineyrafael",
+    "https://instagram.com/darioburgenescandela",
+    "https://instagram.com/angelrojas_86",
+    "https://instagram.com/antoniybelenoficial",
+    "https://wa.me/5493512066467?text=Hola%21%20Quiero%20reservar%20entrada%20para%20una%20noche%20social%20del%20Comadreja%20Salsa%20Congress%202026.",
+    "https://www.youtube.com/watch?v=Q8_uu1Bvp50",
+    "https://www.youtube.com/watch?v=7aqsAMHaa5Y",
+    "https://www.youtube.com/watch?v=Q5g_2ngOzIw",
+    "https://www.youtube.com/watch?v=WFRqV3ro49U",
+    "https://www.google.com/maps?q=Almafuerte+40,+Villa+Carlos+Paz,+C%C3%B3rdoba",
+    "https://www.google.com/maps?q=Domus+Auditorium+Suites,+Jer%C3%B3nimo+Luis+de+Cabrera+2091,+Villa+Carlos+Paz,+C%C3%B3rdoba"
+  ]
+}

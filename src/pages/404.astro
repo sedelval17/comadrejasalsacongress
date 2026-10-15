@@ -1,0 +1,6 @@
+---
+import { withBase } from '../lib/urls';
+import Layout from '../layouts/Layout.astro';
+import Button from '../components/Button.astro';
+---
+<Layout title="Página no encontrada" description="Volvé al inicio de Comadreja Salsa Congress 2026."><section class="section cream"><div class="container"><span class="eyebrow">404 · Página no encontrada</span><h1 style="font-size:clamp(3rem,7vw,6rem);margin-block:25px">Volvamos a la pista.</h1><p>La página que buscás no existe. Encontrá el programa, los artistas y toda la información en el inicio.</p><div class="content-gap"><Button href={withBase('/')} variant="wine">Volver al inicio</Button></div></div></section></Layout>

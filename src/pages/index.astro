@@ -1,0 +1,55 @@
+---
+import { withBase } from '../lib/urls';
+import Layout from '../layouts/Layout.astro';
+import Picture from '../components/Picture.astro';
+import Button from '../components/Button.astro';
+import Icon from '../components/Icon.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import ArtistCard from '../components/ArtistCard.astro';
+import PassBanner from '../components/PassBanner.astro';
+import Notice from '../components/Notice.astro';
+import { event, links, conflicts } from '../data/site';
+import artists from '../data/artists.json';
+import { schedule } from '../data/program';
+const featured = [artists[1], artists[0], artists[2]];
+---
+<Layout title="Más que historia, una experiencia" description="Comadreja Salsa Congress 2026. Del 26 al 29 de noviembre en Villa Carlos Paz, Córdoba: salsa, bachata, artistas, competencias, talleres y social.">
+  <section class="home-hero">
+    <div class="container hero-topline"><span>COMADREJA PRODUCCIONES PRESENTA</span><span>VILLA CARLOS PAZ, ARGENTINA <span aria-hidden="true">↗</span></span></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="hero-date"><span class="status-dot" aria-hidden="true"></span>{event.dates} · {event.year}</div>
+        <div class="original-wordmark"><img src={withBase('/assets/brand/comadreja-logo-reconstruido-v1.webp')} width="2170" height="725" alt="Comadreja 2026 Salsa Congress, logo reconstruido a partir de la referencia original" loading="eager" decoding="async" /></div>
+        <h1><span class="sr-only">Comadreja Salsa Congress 2026. </span>MÁS QUE HISTORIA.<br /><span>UNA EXPERIENCIA.</span></h1>
+        <p>El congreso mundial de salsa y bachata en Córdoba. Cuatro días de artistas internacionales, competencias, talleres y pura energía latina.</p>
+        <div class="button-row"><Button href={links.fullPass}>Quiero el Full Pass</Button><Button href={withBase('/talleres.html')} variant="outline">Explorar el congreso</Button></div>
+        <div class="hero-bottom"><span>26 — 29 <small>NOVIEMBRE / 2026</small></span><div class="hero-place"><Icon name="pin" /><span>Villa Carlos Paz<br /><b>Córdoba, Argentina</b></span></div></div>
+      </div>
+      <figure class="hero-visual"><div class="hero-photo"><Picture name="hero-congreso.jpg" alt="Pareja de salsa en una figura de baile, fotografía oficial de Comadreja Salsa Congress" eager sizes="(min-width: 1440px) 485px, (min-width: 900px) 40vw, 85vw" /></div><span class="hero-photo-edge" aria-hidden="true">SALSA · BACHATA · COMADREJA 2026</span><span class="hero-stamp"><b>4</b>DÍAS DE<br />CONGRESO<span aria-hidden="true">✦</span></span><figcaption>El baile nos vuelve a encontrar. <span aria-hidden="true">↗</span></figcaption></figure>
+    </div>
+  </section>
+  <div class="event-ribbon" aria-label="Competencias, talleres, shows, música en vivo y social"><span>EL MUNDIAL</span><span aria-hidden="true">✦</span><span>BATTLE MASTER</span><span aria-hidden="true">✦</span><span>TALLERES</span><span aria-hidden="true">✦</span><span>SHOWS & SOCIAL</span><span aria-hidden="true">✦</span><span>MÚSICA EN VIVO</span></div>
+  <section class="section cream"><div class="container"><div class="heading-row"><SectionHeading eyebrow="Qué vas a vivir" title="Cuatro días. Una misma pasión." /><p class="section-side-copy">Dos competencias, formación con referentes internacionales y noches para encontrarnos en la pista.</p></div><div class="experience-grid">
+    <a class="experience-item" href={withBase('/el-mundial.html')}><span class="experience-number">01 / COMPETENCIA</span><span class="experience-glyph" aria-hidden="true">✦</span><h3>El Mundial</h3><p>Final nacional argentina de la competencia creada por Karen y Ricardo, nueve veces campeones mundiales.</p><span class="text-link">Reglamento, categorías y sedes <Icon /></span></a>
+    <a class="experience-item" href={withBase('/battle-master.html')}><span class="experience-number">02 / IMPROVISACIÓN</span><span class="experience-glyph battle-glyph" aria-hidden="true">1<span>vs</span>1</span><h3>Battle Master</h3><p>Duelos de improvisación pura. Dos rounds de 30 segundos para dejar tu marca en la pista.</p><span class="text-link">Conocé la competencia <Icon /></span></a>
+    <a class="experience-item" href={withBase('/talleres.html')}><span class="experience-number">03 / CONGRESO</span><span class="experience-glyph" aria-hidden="true">↗</span><h3>Talleres y shows</h3><p>Clases con artistas nacionales e internacionales, shows, banda en vivo y noches de social.</p><span class="text-link">Explorá el cronograma <Icon /></span></a>
+  </div></div></section>
+  <section class="section artists-home"><div class="container"><div class="heading-row"><SectionHeading eyebrow="Artistas internacionales" title="El mundo viene a bailar." /><Button href={withBase('/artistas.html')} variant="outline">Conocé a todos</Button></div><div class="featured-artists">{featured.map(artist => <ArtistCard artist={artist} featured />)}</div><div class="artists-footnote"><span>CHILE <span aria-hidden="true">✦</span> BRASIL <span aria-hidden="true">✦</span> ESPAÑA <span aria-hidden="true">✦</span> ARGENTINA</span><span>Más de 20 artistas en escena</span></div></div></section>
+  <section class="section cream"><div class="container"><div class="heading-row"><SectionHeading eyebrow="Del 26 al 29 de noviembre" title="Tu próximo encuentro." /><Button href={withBase('/talleres.html')} variant="wine">Ver el programa completo</Button></div><div class="mini-schedule">{schedule.map(day => <a href={withBase(`/talleres.html#${day.id}`)}><span class="eyebrow">{day.day}</span><span class="big-day">{day.date}<small>NOV</small></span><h3>{day.title}</h3><Icon /></a>)}</div><p class="fineprint">Programa sujeto a cambios. Los horarios de talleres del sábado y domingo todavía no están publicados.</p></div></section>
+  <section class="section history-section"><div class="container history-grid"><div><SectionHeading eyebrow="20+ años de trayectoria" title="Un congreso que marcó generaciones." /><p class="lede">Comadreja Salsa Congress reúne a estrellas internacionales y potencia el talento argentino, elevando la escena de la salsa y la bachata en Córdoba edición tras edición.</p><p>Este año, la Final Nacional de El Mundial y Comadreja Battle Master se suman a los talleres, shows y noches sociales que ya son un clásico.</p><Button href={withBase('/contacto.html#videos')} variant="outline">Así se vive Comadreja</Button></div><figure class="local-video"><video controls preload="none" poster={withBase('/assets/images/video-poster-640.webp')} width="406" height="720" aria-label="Resumen de Comadreja Salsa Congress"><source src={withBase('/assets/video/resumen-congreso.webm')} type="video/webm" /><source src={withBase('/assets/video/resumen-congreso.mp4')} type="video/mp4" />Tu navegador no puede reproducir el video. <a href={withBase('/assets/original/assets-video-resumen-congreso.mp4')}>Descargar video</a></video><figcaption>COMADREJA SALSA CONGRESS <span aria-hidden="true">✦</span></figcaption></figure></div></section>
+  <section class="countdown-section"><div class="container countdown-inner"><div><span class="eyebrow">La cuenta regresiva</span><h2>Nos vemos en la pista.</h2></div><div class="countdown" data-countdown data-start={event.startDate} data-end={event.endDate}><span class="countdown-value" data-days>26–29</span><span class="countdown-label" data-label>NOVIEMBRE 2026</span></div></div></section>
+  <PassBanner />
+  <section class="section compact cream"><div class="container"><Notice title="Sede del evento: consultá antes de viajar">{conflicts.venue} <a href={links.info} target="_blank" rel="noopener noreferrer">Confirmar con Isa ↗</a></Notice></div></section>
+  <script>
+    const counter = document.querySelector<HTMLElement>('[data-countdown]');
+    if (counter) {
+      // Calendar dates in Argentina: no invented opening time or ticking-seconds promise.
+      const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Argentina/Buenos_Aires', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+      const start = counter.dataset.start!;
+      const end = counter.dataset.end!;
+      const days = Math.round((Date.parse(start) - Date.parse(today)) / 86400000);
+      counter.querySelector('[data-days]')!.textContent = days > 0 ? String(days).padStart(2, '0') : today <= end ? '26–29' : '2026';
+      counter.querySelector('[data-label]')!.textContent = days > 0 ? (days === 1 ? 'DÍA PARA ENCONTRARNOS' : 'DÍAS PARA ENCONTRARNOS') : today <= end ? 'EL CONGRESO ESTÁ EN MARCHA' : 'EDICIÓN FINALIZADA';
+    }
+  </script>
+</Layout>

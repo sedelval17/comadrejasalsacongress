@@ -1,0 +1,22 @@
+---
+import Picture from './Picture.astro';
+import Icon from './Icon.astro';
+interface Props { id: string; title: string; }
+const { id, title } = Astro.props;
+---
+<figure class="video-card"><div class="video-frame" data-video={id} data-title={title}><a href={`https://www.youtube.com/watch?v=${id}`} class="video-trigger" aria-label={`Reproducir video: ${title}`}><Picture name={`vi-${id}-hqdefault.jpg`} alt="" sizes="(min-width: 768px) 480px, 90vw" /><span class="play-button"><Icon name="play" /></span><span class="video-label">REPRODUCIR VIDEO</span></a></div><figcaption>{title} <a href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener noreferrer" aria-label={`YouTube: ver ${title}`}>YouTube <Icon name="external" /></a></figcaption></figure>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-video]').forEach(frame => {
+    frame.querySelector('a')?.addEventListener('click', event => {
+      event.preventDefault();
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${frame.dataset.video}?autoplay=1`;
+      iframe.title = frame.dataset.title || 'Video del congreso';
+      iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      frame.replaceChildren(iframe);
+      iframe.focus();
+    });
+  });
+</script>

@@ -1,0 +1,13 @@
+---
+import images from '../data/images.json';
+import { withBase } from '../lib/urls';
+interface Props { name: string; alt: string; class?: string; eager?: boolean; sizes?: string; }
+const { name, alt, class: className = '', eager = false, sizes = '(min-width: 1024px) 32vw, (min-width: 640px) 48vw, 90vw' } = Astro.props;
+const item = (images as Record<string, { width: number; height: number; original: string; variants: { width: number; avif: string; webp: string }[] }>)[name];
+if (!item) throw new Error(`Image not in manifest: ${name}`);
+const last = item.variants.at(-1)!;
+---
+<picture class={className}>
+  <source type="image/avif" srcset={item.variants.map(v => `${withBase(v.avif)} ${v.width}w`).join(', ')} sizes={sizes} />
+  <img src={withBase(last.webp)} srcset={item.variants.map(v => `${withBase(v.webp)} ${v.width}w`).join(', ')} sizes={sizes} width={item.width} height={item.height} alt={alt} loading={eager ? 'eager' : 'lazy'} decoding="async" fetchpriority={eager ? 'high' : 'auto'} />
+</picture>

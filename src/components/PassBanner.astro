@@ -1,0 +1,6 @@
+---
+import { withBase } from '../lib/urls';
+import Button from './Button.astro';
+import { links, prices, event } from '../data/site';
+---
+<section class="pass-banner"><div class="container pass-banner-inner"><div><span class="eyebrow">{event.dates} · {event.year}</span><h2>Todo el congreso.<br /><span>Un solo acceso.</span></h2></div><div class="pass-banner-action"><span class="pass-label">FULL PASS 2026</span><p class="pass-price">{prices.fullPass}</p><Button href={links.fullPass}>Quiero mi Full Pass</Button><a class="underlink" href={withBase('/precios.html')}>Ver qué incluye y formas de pago</a></div></div></section>

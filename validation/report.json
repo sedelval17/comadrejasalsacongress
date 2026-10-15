@@ -1,0 +1,1220 @@
+{
+  "testedAt": "2026-10-15T14:53:06.416Z",
+  "base": "http://localhost:4321",
+  "widths": [
+    320,
+    375,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "pageChecks": 42,
+  "screenshots": 42,
+  "failures": [],
+  "results": [
+    {
+      "route": "/",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Más que historia, una experiencia | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/",
+      "description": "Comadreja Salsa Congress 2026. Del 26 al 29 de noviembre en Villa Carlos Paz, Córdoba: salsa, bachata, artistas, competencias, talleres y social.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 80
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "El Mundial · Final Nacional Argentina | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/el-mundial.html",
+      "description": "El Mundial 2026: etapas, categorías, eliminatorias argentinas, inscripción y acceso al reglamento. Final Nacional en el marco de Comadreja Salsa Congress.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 44
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/battle-master.html",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 28
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/talleres.html",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Cronograma y talleres | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/talleres.html",
+      "description": "Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 36
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/artistas.html",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Artistas, compañías y DJs | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/artistas.html",
+      "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
+      "emptyLinks": 0,
+      "cls": 0.00871904972029321,
+      "initialMetrics": {
+        "cls": 0.00871904972029321,
+        "lcp": 44
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/precios.html",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Precios y formas de pago | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/precios.html",
+      "description": "Full Pass $180.000, inscripción a El Mundial desde $60.000 y entradas de social. Efectivo, transferencia o Mercado Pago: reservas con Isa por WhatsApp.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 36
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/contacto.html",
+      "width": 320,
+      "status": 200,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/contacto.html",
+      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 36
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Más que historia, una experiencia | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/",
+      "description": "Comadreja Salsa Congress 2026. Del 26 al 29 de noviembre en Villa Carlos Paz, Córdoba: salsa, bachata, artistas, competencias, talleres y social.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 72
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "El Mundial · Final Nacional Argentina | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/el-mundial.html",
+      "description": "El Mundial 2026: etapas, categorías, eliminatorias argentinas, inscripción y acceso al reglamento. Final Nacional en el marco de Comadreja Salsa Congress.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/battle-master.html",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 32
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/talleres.html",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Cronograma y talleres | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/talleres.html",
+      "description": "Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 32
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/artistas.html",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Artistas, compañías y DJs | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/artistas.html",
+      "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
+      "emptyLinks": 0,
+      "cls": 0.012266218827160495,
+      "initialMetrics": {
+        "cls": 0.012266218827160495,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/precios.html",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Precios y formas de pago | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/precios.html",
+      "description": "Full Pass $180.000, inscripción a El Mundial desde $60.000 y entradas de social. Efectivo, transferencia o Mercado Pago: reservas con Isa por WhatsApp.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/contacto.html",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 375,
+      "viewport": 375,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/contacto.html",
+      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 28
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Más que historia, una experiencia | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/",
+      "description": "Comadreja Salsa Congress 2026. Del 26 al 29 de noviembre en Villa Carlos Paz, Córdoba: salsa, bachata, artistas, competencias, talleres y social.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 80
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "El Mundial · Final Nacional Argentina | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/el-mundial.html",
+      "description": "El Mundial 2026: etapas, categorías, eliminatorias argentinas, inscripción y acceso al reglamento. Final Nacional en el marco de Comadreja Salsa Congress.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/battle-master.html",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 28
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/talleres.html",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Cronograma y talleres | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/talleres.html",
+      "description": "Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 48
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/artistas.html",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Artistas, compañías y DJs | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/artistas.html",
+      "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/precios.html",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Precios y formas de pago | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/precios.html",
+      "description": "Full Pass $180.000, inscripción a El Mundial desde $60.000 y entradas de social. Efectivo, transferencia o Mercado Pago: reservas con Isa por WhatsApp.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 32
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/contacto.html",
+      "width": 768,
+      "status": 200,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/contacto.html",
+      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "status": 200,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Más que historia, una experiencia | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/",
+      "description": "Comadreja Salsa Congress 2026. Del 26 al 29 de noviembre en Villa Carlos Paz, Córdoba: salsa, bachata, artistas, competencias, talleres y social.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 84
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 1024,
+      "status": 200,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "El Mundial · Final Nacional Argentina | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/el-mundial.html",
+      "description": "El Mundial 2026: etapas, categorías, eliminatorias argentinas, inscripción y acceso al reglamento. Final Nacional en el marco de Comadreja Salsa Congress.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 36
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 1024,
+      "status": 200,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/battle-master.html",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 32
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/talleres.html",
+      "width": 1024,
+      "status": 200,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Cronograma y talleres | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/talleres.html",
+      "description": "Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/artistas.html",
+      "width": 1024,
+      "status": 200,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Artistas, compañías y DJs | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/artistas.html",
+      "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 36
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/precios.html",
+      "width": 1024,
+      "status": 200,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Precios y formas de pago | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/precios.html",
+      "description": "Full Pass $180.000, inscripción a El Mundial desde $60.000 y entradas de social. Efectivo, transferencia o Mercado Pago: reservas con Isa por WhatsApp.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 32
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/contacto.html",
+      "width": 1024,
+      "status": 200,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/contacto.html",
+      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 36
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Más que historia, una experiencia | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/",
+      "description": "Comadreja Salsa Congress 2026. Del 26 al 29 de noviembre en Villa Carlos Paz, Córdoba: salsa, bachata, artistas, competencias, talleres y social.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 84
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "El Mundial · Final Nacional Argentina | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/el-mundial.html",
+      "description": "El Mundial 2026: etapas, categorías, eliminatorias argentinas, inscripción y acceso al reglamento. Final Nacional en el marco de Comadreja Salsa Congress.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 36
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/battle-master.html",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 44
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/talleres.html",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Cronograma y talleres | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/talleres.html",
+      "description": "Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/artistas.html",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Artistas, compañías y DJs | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/artistas.html",
+      "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 56
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/precios.html",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Precios y formas de pago | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/precios.html",
+      "description": "Full Pass $180.000, inscripción a El Mundial desde $60.000 y entradas de social. Efectivo, transferencia o Mercado Pago: reservas con Isa por WhatsApp.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 44
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/contacto.html",
+      "width": 1440,
+      "status": 200,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/contacto.html",
+      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/",
+      "width": 1920,
+      "status": 200,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Más que historia, una experiencia | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/",
+      "description": "Comadreja Salsa Congress 2026. Del 26 al 29 de noviembre en Villa Carlos Paz, Córdoba: salsa, bachata, artistas, competencias, talleres y social.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 96
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 1920,
+      "status": 200,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "El Mundial · Final Nacional Argentina | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/el-mundial.html",
+      "description": "El Mundial 2026: etapas, categorías, eliminatorias argentinas, inscripción y acceso al reglamento. Final Nacional en el marco de Comadreja Salsa Congress.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 44
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 1920,
+      "status": 200,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Comadreja Battle Master 1vs1 | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/battle-master.html",
+      "description": "Batallas de salsa y bachata 1vs1: formato, evaluación, premios publicados, reglamento e inscripción con Rodrigo Perazolo.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 40
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/talleres.html",
+      "width": 1920,
+      "status": 200,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Cronograma y talleres | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/talleres.html",
+      "description": "Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 44
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/artistas.html",
+      "width": 1920,
+      "status": 200,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Artistas, compañías y DJs | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/artistas.html",
+      "description": "Karen y Ricardo, Carine y Rafael, Anthony y Belén y la grilla completa de artistas, compañías, conductores y DJs de Comadreja Salsa Congress 2026.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 56
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/precios.html",
+      "width": 1920,
+      "status": 200,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Precios y formas de pago | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/precios.html",
+      "description": "Full Pass $180.000, inscripción a El Mundial desde $60.000 y entradas de social. Efectivo, transferencia o Mercado Pago: reservas con Isa por WhatsApp.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 52
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    },
+    {
+      "route": "/contacto.html",
+      "width": 1920,
+      "status": 200,
+      "scrollWidth": 1920,
+      "viewport": 1920,
+      "overflowing": [],
+      "brokenImages": [],
+      "unreservedImages": [],
+      "h1Count": 1,
+      "title": "Contacto y ubicación | Comadreja Salsa Congress 2026",
+      "canonical": "https://comadrejaproducciones.com/contacto.html",
+      "description": "Contactá a Isa por Full Pass e inscripciones o a Rodrigo Perazolo por Battle Master. Redes oficiales, videos del congreso y las referencias de ubicación publicadas.",
+      "emptyLinks": 0,
+      "cls": 0,
+      "initialMetrics": {
+        "cls": 0,
+        "lcp": 44
+      },
+      "pageErrors": [],
+      "localErrors": [],
+      "externalErrors": []
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "help": "Elements must only use permitted ARIA attributes"
+        },
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        },
+        {
+          "id": "video-caption",
+          "help": "<video> elements must have captions"
+        }
+      ]
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/talleres.html",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/artistas.html",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/precios.html",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/contacto.html",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "help": "Elements must only use permitted ARIA attributes"
+        },
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        },
+        {
+          "id": "video-caption",
+          "help": "<video> elements must have captions"
+        }
+      ]
+    },
+    {
+      "route": "/el-mundial.html",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/battle-master.html",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/talleres.html",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/artistas.html",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/precios.html",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    },
+    {
+      "route": "/contacto.html",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "help": "Elements must meet minimum color contrast ratio thresholds"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "test": "mobile-menu-keyboard-and-navigation",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "test": "mobile-menu-keyboard-and-navigation",
+      "width": 375,
+      "passed": true
+    },
+    {
+      "test": "mobile-menu-keyboard-and-navigation",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "test": "mobile-menu-keyboard-and-navigation",
+      "width": 1024,
+      "passed": true
+    },
+    {
+      "test": "all-31-artist-records-and-poster",
+      "passed": true
+    },
+    {
+      "test": "schedule-day-navigation",
+      "passed": true
+    },
+    {
+      "test": "local-video-real-playback",
+      "playable": true,
+      "duration": 24.233,
+      "width": 406,
+      "height": 720,
+      "currentTime": 1.122154
+    },
+    {
+      "test": "four-youtube-facades",
+      "passed": true,
+      "note": "Verified iframe activation and official source. Playback restrictions may depend on YouTube/account/region."
+    },
+    {
+      "test": "two-attributed-location-maps",
+      "maps": [
+        {
+          "title": "Mapa de Hotel Estilo MB, sede publicada pendiente de confirmación",
+          "source": "https://www.google.com/maps?q=Almafuerte+40,+Villa+Carlos+Paz,+C%C3%B3rdoba&output=embed",
+          "width": 618,
+          "height": 298
+        },
+        {
+          "title": "Mapa de Domus Auditorium Suites, sede publicada pendiente de confirmación",
+          "source": "https://www.google.com/maps?q=Domus+Auditorium+Suites,+Jer%C3%B3nimo+Luis+de+Cabrera+2091,+Villa+Carlos+Paz,+C%C3%B3rdoba&output=embed",
+          "width": 618,
+          "height": 298
+        }
+      ]
+    },
+    {
+      "test": "no-javascript-menu-and-video-links",
+      "passed": true
+    }
+  ],
+  "note": "Local production build. Browser metrics are lab observations without mobile CPU/network throttling, not field Core Web Vitals."
+}

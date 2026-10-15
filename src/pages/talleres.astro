@@ -1,0 +1,21 @@
+---
+import { withBase } from '../lib/urls';
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Button from '../components/Button.astro';
+import Picture from '../components/Picture.astro';
+import Notice from '../components/Notice.astro';
+import PassBanner from '../components/PassBanner.astro';
+import { schedule, workshops } from '../data/program';
+import { links, conflicts } from '../data/site';
+---
+<Layout title="Cronograma y talleres" description="Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.">
+  <PageIntro eyebrow="Del 26 al 29 de noviembre · Programa sujeto a cambios" title="Cuatro días." accent="Toda la energía." description="Competencia, formación y fiesta en Villa Carlos Paz. Explorá el programa día por día y los talleres con nuestros artistas nacionales e internacionales." number="03"><div class="button-row"><Button href="#talleres" variant="outline">Ver los talleres</Button></div></PageIntro>
+  <nav class="day-nav" aria-label="Días del cronograma"><div class="container">{schedule.map(day => <a href={`#${day.id}`}>{day.day} {day.date}</a>)}</div></nav>
+  <section class="section cream"><div class="container"><SectionHeading eyebrow="El programa" title="Día por día." /><p class="fineprint">Los horarios de talleres del sábado y domingo no fueron publicados. La social de las 00:00 aparece dentro de la jornada del viernes en el programa original.</p><div class="content-gap">{schedule.map(day => <article class="schedule-day" id={day.id}><div class="schedule-date"><span class="eyebrow">{day.day}</span><span>{day.date}</span><small>NOVIEMBRE 2026</small></div><div><h3>{day.title}</h3><ul class="schedule-slots">{day.events.map(item => <li>{item.time ? <time>{item.time}</time> : <span class="pending-time">Horario a confirmar</span>}<span>{item.name}</span></li>)}</ul></div></article>)}</div><Notice title="Fechas de competencia por confirmar">{conflicts.finalDate}</Notice></div></section>
+  <section class="section" id="talleres"><div class="container"><SectionHeading eyebrow="Formación · Incluida en el Full Pass" title="Aprendé con quienes te inspiran." description="Talleres internacionales, charla para competidores y Mega Stars Class. Conservamos los profesores y contenidos publicados por la organización." />{['Sábado', 'Domingo'].map(day => <div class="workshop-day"><h3>{day} {day === 'Sábado' ? '28' : '29'} <span aria-hidden="true">/</span></h3><div class="workshops-grid">{workshops.filter(workshop => workshop.day === day).map(workshop => <article class="workshop"><Picture name={workshop.image} alt={workshop.teacher} sizes="80px" /><div><h4>{workshop.title}</h4><p>{workshop.teacher}</p>{workshop.handles.map(handle => <a href={`https://instagram.com/${handle}`} target="_blank" rel="noopener noreferrer">@{handle} ↗</a>)}</div></article>)}</div></div>)}<p class="fineprint">El programa de talleres nombra a Ángel Rojas y Carla Martínez, y a Cristian Paredes e Isidora Jacob. La grilla general utiliza otras variantes de esos nombres; se conserva cada referencia tal como fue publicada.</p><div class="content-gap"><Button href={links.fullPass}>Reservar mi lugar en los talleres</Button></div></div></section>
+  <section class="section wine"><div class="container social-band"><div><SectionHeading eyebrow="Todas las noches" title="Shows, banda en vivo y social." /><p class="lede content-gap">Shows internacionales y nacionales en el escenario de Comadreja. Música en vivo y sets de DJ Moon, DJ Tito, DJ Fede Ramírez, DJ Matias Casco y DJ Joseco.</p><div class="content-gap"><Button href={withBase('/artistas.html#djs')} variant="outline">Ver DJs y artistas</Button></div></div><div class="social-ratio"><span>50%<small>BACHATA</small></span><span aria-hidden="true">✦</span><span>50%<small>SALSA</small></span></div></div></section>
+  <section class="section compact cream"><div class="container"><Notice title="Sede del programa por confirmar">{conflicts.venue} <a href={withBase('/contacto.html#ubicacion')}>Ver ambas ubicaciones</a>.</Notice></div></section>
+  <PassBanner />
+</Layout>

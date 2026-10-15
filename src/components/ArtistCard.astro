@@ -1,0 +1,9 @@
+---
+import Picture from './Picture.astro';
+interface Props { artist: { name: string; image: string; imageAlt: string; origin: string; bio: string; }; featured?: boolean; }
+const { artist, featured = false } = Astro.props;
+---
+<article class:list={['artist-card', { 'artist-featured': featured }]}>
+  <div class="artist-photo"><Picture name={artist.image.split('/').at(-1)!} alt={artist.imageAlt} sizes={featured ? '(min-width: 900px) 300px, (min-width: 640px) 40vw, 80vw' : '(min-width: 1024px) 270px, (min-width: 640px) 30vw, 75vw'} /><span class="photo-star" aria-hidden="true">✦</span></div>
+  <div class="artist-caption"><span class="eyebrow">{artist.origin}</span><h3>{artist.name}</h3>{featured && artist.bio && <p>{artist.bio}</p>}</div>
+</article>

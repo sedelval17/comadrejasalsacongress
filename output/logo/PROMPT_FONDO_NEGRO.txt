@@ -1,0 +1,11 @@
+Herramienta: image_gen integrada (modo built-in).
+Referencia: marca original recuperada del afiche oficial y miniatura enviada por el usuario.
+Prompt final de la versión con fondo negro:
+
+Recreate the ORIGINAL logo shown in the reference as a new clean high-resolution logo image, faithfully matching the delicate thin serif typography and colors. Output on a perfectly solid matte BLACK background, NOT transparent.
+Write EXACTLY these two lines:
+Comadreja 2026
+SalsaCongress
+Comadreja and Congress are elegant very fine white Didot-style serif letters, matching the reference's thin elegant strokes, high contrast and rounded lower-case bowls. Salsa and the ornate 2026 are warm metallic gold. 2026 sits at right of Comadreja, at smaller letter height, with its distinctive curling gold numeral shapes. The two lines have roughly equal total width.
+The original reference comes from a noisy photograph, but this output must be freshly redrawn with IMMACULATE SOLID LETTERS, ABSOLUTELY CLEAN UNIFORM EDGES AND BLACK NEGATIVE SPACE. No photographic texture. No distressed edges. No flecks. No fine black outlines on the white letters. No cutout extraction. No missing pieces. Keep the letters elegant and thin, not heavy or bold.
+Compose the two-line logo horizontally, large and centered, with a reasonable clean margin. No other text, no icons, no shadows, no glow, no extra design. Black background must be completely opaque and uniform. Professional final logo artwork.

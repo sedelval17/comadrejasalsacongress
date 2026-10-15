@@ -1,0 +1,18 @@
+{
+  "source": "public/assets/original/assets-video-resumen-congreso.mp4",
+  "originalCodec": "H.264 High 10 / yuv420p10le / HLG BT.2020; AAC",
+  "durationSeconds": 24.22,
+  "width": 406,
+  "height": 720,
+  "delivery": [
+    {
+      "file": "public/assets/video/resumen-congreso.webm",
+      "bytes": 5020890
+    },
+    {
+      "file": "public/assets/video/resumen-congreso.mp4",
+      "bytes": 5207654
+    }
+  ],
+  "processing": "Same footage and audio; HLG to SDR tone mapping, 30 fps, H.264 Main 8-bit + VP9 WebM delivery copies. No invented frames or content."
+}
