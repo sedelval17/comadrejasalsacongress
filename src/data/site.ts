@@ -56,7 +56,7 @@ export const prices = {
     { label: '2 categorías', amount: '$60.000 + $30.000' },
     { label: 'Tarifa por varias categorías · consultar', amount: '$60.000 + $20.000 por adicional desde la 2.ª categoría' },
   ],
-  categoryNote: 'La tarifa de $20.000 por categoría adicional se calcula desde la segunda. Consultá con Isa a partir de cuántas categorías aplica y el total de tu inscripción.',
+  categoryNote: 'Si participás en varias categorías, consultá con Isa qué tarifa te corresponde y el total de tu inscripción.',
   nights: [
     { day: 'Viernes', date: '27 NOV', price: '$25.000', note: 'Comienza a las 00:00 del sábado 28.' },
     { day: 'Sábado', date: '28 NOV', price: '$35.000' },

@@ -11,7 +11,7 @@ const { competition, href, file } = Astro.props;
   <div>
     <span class="eyebrow">Reglamento · {competition}</span>
     <h3>{file ? file.title : 'Consultá el reglamento completo'}</h3>
-    <p>{file ? file.details : 'El documento enlazado en el sitio original no está disponible. Solicitá la versión vigente a la organización para conocer todas las condiciones antes de competir.'}</p>
+    <p>{file ? file.details : 'Pedile a Isa el reglamento completo para conocer los requisitos y las condiciones de participación.'}</p>
     {file?.note && <p class="fineprint">{file.note}</p>}
   </div>
   {file ? <Button href={file.href} variant="outline" download>Descargar PDF</Button> : <Button href={href} variant="outline">Solicitar reglamento</Button>}
