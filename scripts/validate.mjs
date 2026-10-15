@@ -60,6 +60,14 @@ try {
         description: document.querySelector('meta[name="description"]')?.getAttribute('content'),
         links: Array.from(document.querySelectorAll('a[href]')).map(a => a.getAttribute('href')),
         emptyLinks: Array.from(document.querySelectorAll('a[href]')).filter(a => !a.getAttribute('href') || a.getAttribute('href') === '#').length,
+        scheduleDateOverflow: Array.from(document.querySelectorAll('.schedule-date')).flatMap(date => {
+          const bounds = date.getBoundingClientRect();
+          return Array.from(date.children).filter(label => {
+            const range = document.createRange();
+            range.selectNodeContents(label);
+            return Array.from(range.getClientRects()).some(rect => rect.left < bounds.left - 1 || rect.right > bounds.right + 1);
+          }).map(label => label.textContent.trim());
+        }),
         cls: window.__qa.cls,
       }));
       const slug = route === '/' ? 'index' : route.replace('/', '').replace('.html', '');
@@ -80,6 +88,7 @@ try {
       check(inspection.unreservedImages.length === 0, `${route} ${width}: missing image dimensions`);
       check(inspection.h1Count === 1 && inspection.description && inspection.canonical, `${route} ${width}: missing page metadata or H1`);
       check(inspection.emptyLinks === 0, `${route} ${width}: placeholder links`);
+      check(inspection.scheduleDateOverflow.length === 0, `${route} ${width}: date labels extend outside their column (${inspection.scheduleDateOverflow.join(', ')})`);
       check(pageErrors.length === 0 && localErrors.length === 0, `${route} ${width}: local errors ${[...pageErrors, ...localErrors].join(', ')}`);
       const { links, ...rest } = inspection;
       results.push({ route, width, status: response?.status(), ...rest, initialMetrics, pageErrors, localErrors, externalErrors });

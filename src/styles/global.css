@@ -30,7 +30,7 @@
   a, button, summary { -webkit-tap-highlight-color: transparent; }
   a, button { transition: color .18s, background-color .18s, border-color .18s; }
   .container { width: min(1280px, calc(100% - 112px)); margin-inline: auto; }
-  .section { padding-block: 100px; }
+  .section { padding-block: 84px; }
   .compact { padding-block: 48px; }
   .cream { background: var(--cream); color: var(--ink); --muted: #665b53; --line: var(--line-dark); }
   .wine { background: var(--wine); }
@@ -55,7 +55,7 @@
   .brand-star { display: inline-block; font-size: 16px; color: var(--gold); margin-left: 5px; vertical-align: top; }
   .brand-sub { display: flex; justify-content: space-between; gap: 12px; font-size: 7.7px; font-weight: 700; letter-spacing: .18em; margin-top: 8px; }
   .brand-sub span { color: var(--gold); }
-  .desktop-nav { display: flex; align-items: center; justify-content: center; gap: clamp(15px, 1.8vw, 28px); flex: 1; }
+  .desktop-nav { display: flex; align-items: center; justify-content: space-between; gap: clamp(14px, 1.4vw, 22px); flex: 1; min-width: 0; }
   .desktop-nav a { font-size: 1rem; font-weight: 600; white-space: nowrap; padding-block: 30px; color: var(--cream); position: relative; }
   .desktop-nav a:hover, .desktop-nav a[aria-current] { color: var(--gold); }
   .desktop-nav a[aria-current]::after { content: ''; position: absolute; bottom: 16px; left: calc(50% - 2px); height: 4px; width: 4px; border-radius: 50%; background: var(--gold); }
@@ -78,7 +78,7 @@
   .home-hero { background: radial-gradient(ellipse at 70% 30%, #6b2a3350, transparent 65%), var(--wine-deep); overflow: clip; }
   .hero-topline { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding-block: 21px; font-size: .75rem; letter-spacing: .17em; font-weight: 650; color: #d0bdb0; }
   .hero-topline span span { color: var(--gold); font-size: .9rem; margin-left: 20px; }
-  .hero-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 7%; padding-block: 50px 60px; align-items: center; }
+  .hero-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(32px, 4vw, 56px); padding-block: 50px 60px; align-items: center; }
   .hero-date { display: flex; align-items: center; gap: 9px; font-size: .8125rem; font-weight: 600; color: var(--gold); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 25px; }
   .status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
   .original-wordmark { width: min(440px, 92%); margin-bottom: 34px; padding: 0; mix-blend-mode: lighten; }
@@ -112,7 +112,8 @@
   .section-heading > .eyebrow { margin-bottom: 15px; }
   .section-heading > .lede { margin-top: 20px; }
   .little-star { margin-right: 8px; font-size: 1rem; }
-  .heading-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 50px; }
+  .heading-row { display: flex; justify-content: flex-start; align-items: flex-end; gap: 40px; margin-bottom: 36px; }
+  .heading-row > .section-heading { max-width: 520px; }
   .heading-row > .button { flex-shrink: 0; }
   .section-side-copy { max-width: 320px; color: var(--muted); font-size: 1rem; }
   .experience-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line-dark); }
@@ -150,22 +151,22 @@
   .mini-schedule h3 { font-size: .875rem; line-height: 1.6; margin-bottom: 28px; }
   .mini-schedule .icon { margin-top: auto; }
   .mini-schedule a:hover { background: #e5d8c660; }
-  .history-grid { display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 12%; }
+  .history-grid { display: grid; grid-template-columns: minmax(0, 660px) minmax(0, 300px); justify-content: center; align-items: center; gap: 48px; }
   .history-grid .lede { margin-top: 25px; }
   .history-grid p:not(.lede) { font-size: 1rem; color: var(--muted); }
   .history-grid .button { margin-top: 30px; }
-  .local-video { width: min(100%, 300px); justify-self: center; }
+  .local-video { width: min(100%, 300px); justify-self: start; }
   .local-video video { width: 100%; aspect-ratio: 406/720; object-fit: contain; background: #120f0f; border: 1px solid #c5a36665; }
   .local-video figcaption { display: flex; justify-content: space-between; gap: 10px; font-size: .75rem; letter-spacing: .13em; padding-top: 14px; color: var(--gold); }
   .countdown-section { border-block: 1px solid var(--line); padding-block: 34px; }
-  .countdown-inner { display: flex; justify-content: space-between; align-items: center; gap: 35px; }
+  .countdown-inner { display: flex; justify-content: center; align-items: center; gap: clamp(40px, 6vw, 88px); }
   .countdown-inner h2 { font-size: 2.4rem; margin-top: 8px; }
   .countdown { display: flex; gap: 20px; align-items: center; min-width: 210px; }
   .countdown-value { font-family: var(--display); font-size: 4.4rem; color: var(--gold); min-width: 100px; font-variant-numeric: tabular-nums; line-height: 1.1; }
   .countdown-label { font-size: .875rem; font-weight: 650; letter-spacing: .1em; max-width: 125px; }
   .pass-banner { padding-block: 78px; background: var(--wine); position: relative; overflow: clip; }
   .pass-banner::after { content: '✦'; position: absolute; font-size: 390px; line-height: 1; right: 28%; top: -40px; color: #d6b98408; pointer-events: none; }
-  .pass-banner-inner { display: flex; justify-content: space-between; align-items: center; gap: 50px; position: relative; z-index: 1; }
+  .pass-banner-inner { display: flex; justify-content: center; align-items: center; gap: clamp(40px, 7vw, 100px); position: relative; z-index: 1; }
   .pass-banner h2 { font-size: clamp(3rem, 5vw, 4.5rem); margin-top: 17px; }
   .pass-banner h2 span { color: var(--gold); }
   .pass-banner-action { display: flex; flex-direction: column; align-items: flex-start; min-width: 280px; }
@@ -181,14 +182,14 @@
   .intro-top { display: flex; justify-content: space-between; gap: 30px; border-bottom: 1px solid var(--line); padding-bottom: 25px; }
   .edition { font-size: .75rem; letter-spacing: .12em; white-space: nowrap; }
   .edition span { margin-left: 14px; font-size: 1rem; color: var(--gold); }
-  .intro-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 8%; align-items: center; padding-block: 45px; }
+  .intro-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 48px; align-items: center; padding-block: 45px; }
   .intro-grid h1 { font-size: clamp(3.8rem, 7vw, 6.5rem); text-transform: uppercase; }
   .intro-grid h1 span { color: var(--gold); }
   .intro-copy p { font-size: 1rem; color: #d3c2ba; max-width: 480px; }
   .intro-copy .button-row { margin-top: 24px; }
   .section-index { font-size: .75rem; letter-spacing: .17em; color: var(--gold); }
   .grid-two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
-  .content-gap { margin-top: 45px; }
+  .content-gap { margin-top: 32px; }
   .prose { max-width: 780px; }
   .prose p { color: var(--muted); }
   .prose h3 { margin-block: 25px 15px; }
@@ -238,9 +239,9 @@
   .day-nav a { flex: 1; text-align: center; padding: 20px 10px; font-size: .875rem; font-weight: 750; border-right: 1px solid var(--line-dark); }
   .day-nav a:hover { background: var(--paper); }
   .day-nav a:last-child { border: 0; }
-  .schedule-day { scroll-margin-top: 70px; display: grid; grid-template-columns: 200px 1fr; gap: 60px; border-top: 1px solid var(--line-dark); padding-block: 40px; }
+  .schedule-day { scroll-margin-top: 70px; display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 60px; border-top: 1px solid var(--line-dark); padding-block: 40px; }
   .schedule-date { color: var(--wine); }
-  .schedule-date > span { font-family: var(--display); font-size: 6.5rem; line-height: 1.1; }
+  .schedule-date > span:not(.eyebrow) { display: block; font-family: var(--display); font-size: 6.5rem; line-height: 1.1; }
   .schedule-date small { display: block; font-size: .75rem; letter-spacing: .13em; font-weight: 750; }
   .schedule-day h3 { font-family: var(--display); font-size: 1.9rem; margin-bottom: 18px; }
   .schedule-slots { list-style: none; padding: 0; }
@@ -256,7 +257,7 @@
   .workshop p { font-size: 1rem; color: var(--muted); margin-top: 5px; }
   .workshop a { color: var(--gold); font-size: .875rem; display: inline-block; padding-block: 5px; overflow-wrap: anywhere; margin-right: 8px; }
   .workshop a:hover { text-decoration: underline; }
-  .social-band { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 60px; }
+  .social-band { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 40px; }
   .social-ratio { display: flex; align-items: center; justify-content: center; gap: 20px; padding: 35px 0; border-block: 1px solid var(--line); }
   .social-ratio span { font-family: var(--display); font-size: 4rem; text-align: center; line-height: 1.1; }
   .social-ratio small { display: block; font-family: var(--body); font-size: .875rem; margin-top: 14px; letter-spacing: .1em; }
@@ -365,7 +366,7 @@
     .mobile-menu nav .icon { margin-left: auto; }
     .menu-index { font-family: var(--body); font-size: .75rem; color: var(--muted); }
     .mobile-menu .mobile-pass { font-family: var(--body); background: var(--gold); color: var(--wine); margin-top: 20px; padding-inline: 15px; font-size: .875rem; }
-    .hero-grid { gap: 5%; }
+    .hero-grid { gap: 32px; }
     .hero-copy h1 { font-size: clamp(2.4rem, 4.8vw, 3.3rem); }
     .hero-copy .button-row { gap: 9px; }
     .hero-copy .button { font-size: .9375rem; padding-inline: 12px; gap: 12px; }
@@ -376,7 +377,7 @@
     .hero-stamp b { font-size: 2rem; }
     .featured-artists { gap: 25px; }
     .day-nav { top: 76px; }
-    .section { padding-block: 75px; }
+    .section { padding-block: 68px; }
     .compact { padding-block: 35px; }
     .artists-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     .pricing-grid { gap: 20px; }
@@ -411,7 +412,7 @@
     .hero-stamp { right: -20px; bottom: 45px; width: 114px; height: 114px; }
     .event-ribbon { padding: 17px 20px; gap: 10px 20px; font-size: .875rem; }
     .event-ribbon > span[aria-hidden] { font-size: .9rem; }
-    .section { padding-block: 60px; }
+    .section { padding-block: 56px; }
     .compact { padding-block: 30px; }
     .heading-row { flex-direction: column; align-items: flex-start; gap: 24px; margin-bottom: 32px; }
     .section-side-copy { max-width: 100%; }
@@ -439,7 +440,7 @@
     .mini-schedule h3 { font-size: .875rem; }
     .big-day { font-size: 3.6rem; }
     .history-grid { grid-template-columns: 1fr; gap: 40px; }
-    .local-video { width: min(280px, 85%); }
+    .local-video { width: min(280px, 85%); justify-self: center; }
     .countdown-inner { align-items: flex-start; flex-direction: column; gap: 25px; }
     .countdown-inner h2 { font-size: 2.1rem; }
     .countdown { min-height: 84px; }
@@ -475,8 +476,8 @@
     .day-nav { top: 70px; }
     .day-nav .container { width: 100%; }
     .day-nav a { font-size: .875rem; padding-block: 15px; }
-    .schedule-day { grid-template-columns: 65px 1fr; gap: 20px; padding-block: 30px; scroll-margin-top: 75px; }
-    .schedule-date > span { font-size: 3.6rem; }
+    .schedule-day { grid-template-columns: 80px minmax(0, 1fr); gap: 20px; padding-block: 30px; scroll-margin-top: 75px; }
+    .schedule-date > span:not(.eyebrow) { font-size: 3.6rem; }
     .schedule-date .eyebrow { font-size: .75rem; letter-spacing: .05em; }
     .schedule-date small { font-size: .75rem; letter-spacing: .03em; }
     .schedule-day h3 { font-size: 1.45rem; }
@@ -532,7 +533,7 @@
     .artist-featured .artist-caption h3 { font-size: 1.4rem; }
     .artist-featured .artist-caption p { font-size: 1rem; }
     .button { font-size: .9375rem; gap: 15px; padding-inline: 17px; }
-    .schedule-day { gap: 15px; grid-template-columns: 55px 1fr; }
+    .schedule-day { gap: 15px; }
   }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
   @media print { .site-header, .site-footer, .contact-float, .day-nav, .pass-banner, .button, .video-grid { display: none; } body, .cream, .wine, .page-intro, .section { background: #fff; color: #111; } .section { padding-block: 24px; } .container { width: 100%; } p, .eyebrow, .lede, .fineprint { color: #333 !important; } a { text-decoration: underline; } .schedule-day, .artist-card { break-inside: avoid; } }
