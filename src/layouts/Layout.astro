@@ -6,6 +6,7 @@ import oswaldFont from '@fontsource-variable/oswald/files/oswald-latin-wght-norm
 import '../styles/global.css';
 import { event, navigation, socials, links } from '../data/site';
 import Icon from '../components/Icon.astro';
+import Analytics from '../components/Analytics.astro';
 interface Props { title: string; description: string; path?: string; }
 const { title, description, path = Astro.url.pathname } = Astro.props;
 const route = withoutBase(path);
@@ -16,6 +17,7 @@ const canonical = new URL(withBase(active), Astro.site);
 <html lang="es-AR">
   <head>
     <meta charset="UTF-8" />
+    <Analytics />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#3e111d" />
     <title>{title} | Comadreja Salsa Congress 2026</title>

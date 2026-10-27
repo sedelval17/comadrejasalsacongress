@@ -1,38 +1,63 @@
-export const schedule = [
+interface Workshop {
+  day: 'Sábado' | 'Domingo';
+  time: string;
+  title: string;
+  teacher: string;
+  image: string;
+  handles: string[];
+  guest?: string;
+  featured?: boolean;
+  professors?: string[];
+}
+
+export const workshops: Workshop[] = [
+  { day: 'Sábado', time: '13:00', title: 'Charla para competidores', teacher: 'Karen Forcano y Ricardo Vega', image: 'artist-karen-ricardo.jpg', handles: ['karenyricardo'] },
+  { day: 'Sábado', time: '14:00', title: 'Salsa · shines y vueltas combinadas', teacher: 'Karen Forcano y Ricardo Vega', image: 'artist-karen-ricardo.jpg', handles: ['karenyricardo'] },
+  { day: 'Sábado', time: '15:00', title: 'Bachata · shines y vueltas combinadas', teacher: 'Stephanie Lucero y cía.', image: 'artist-stephanie-lucero.jpg', handles: ['stephanieluceroofficial'] },
+  { day: 'Sábado', time: '16:00', title: 'Bachata Souk · vueltas combinadas', teacher: 'Cristian Paredes e Isidora Jacob', guest: 'Anto Ibáñez', image: 'artist-isidora-cristian.jpg', handles: ['cl.cristianparedes', 'isidorajacob__'] },
+  { day: 'Sábado', time: '17:00', title: 'Salsa · shines y vueltas combinadas', teacher: 'Carine Morais y Rafael Barros', image: 'artist-carine-rafael.jpg', handles: ['carineyrafael'] },
+  { day: 'Domingo', time: '13:00', title: 'Mega Stars Class Bachata', teacher: '8 profesores · una masterclass de bachata coreográfica', image: 'mega-stars-class-bachata.jpg', handles: [], featured: true, professors: ['Yanina Oyola', 'Matías Brex', 'Gastón Romero', 'Rodrigo Navarro', 'Agustina Ludueña', 'Jorge López', 'Sonia Sembinelli', 'Oriana Gesi'] },
+  { day: 'Domingo', time: '15:00', title: 'Salsa fusión', teacher: 'Darío Burgenes', image: 'artist-dario-burgenes.jpg', handles: ['darioburgenescandela'] },
+  { day: 'Domingo', time: '16:00', title: 'Mambo · shines y vueltas combinadas', teacher: 'Ángel Rojas y Carla Martínez', image: 'artist-angel-carly.jpg', handles: ['angelrojas_86'] },
+  { day: 'Domingo', time: '17:00', title: 'Bachata · shines y vueltas combinadas', teacher: 'Antoni y Belén', image: 'artist-antoni-belen.jpg', handles: ['antoniybelenoficial'] },
+];
+
+interface ScheduleDay {
+  id: string;
+  day: string;
+  date: string;
+  title: string;
+  events: { time: string; name: string }[];
+  dressCode?: string;
+}
+
+const workshopEvents = (day: Workshop['day']) => workshops.filter(workshop => workshop.day === day).map(workshop => ({
+  time: workshop.time,
+  name: `${workshop.title} · ${workshop.teacher}${workshop.guest ? ` · Invitada: ${workshop.guest}` : ''}`,
+}));
+
+export const schedule: ScheduleDay[] = [
   { id: 'jueves', day: 'Jueves', date: '26', title: 'Final Nacional El Mundial — Parte 1', events: [
     { time: '08:00', name: 'Acreditaciones' },
     { time: '09:00', name: 'Comienza la competencia' },
     { time: '23:00', name: 'Final de la competencia y entrega de premios' },
   ] },
-  { id: 'viernes', day: 'Viernes', date: '27', title: 'Final Nacional El Mundial — Parte 2', events: [
+  { id: 'viernes', day: 'Viernes', date: '27', title: 'Final Nacional El Mundial — Parte 2', dressCode: 'Negro & dorado', events: [
     { time: '08:00', name: 'Acreditaciones' },
     { time: '09:00', name: 'Comienza la competencia' },
     { time: '23:00', name: 'Final de la competencia y entrega de premios' },
     { time: '00:00', name: 'Social del viernes · madrugada del sábado 28' },
   ] },
-  { id: 'sabado', day: 'Sábado', date: '28', title: 'Talleres internacionales y noche de shows', events: [
-    { time: null, name: 'Talleres internacionales' },
-    { time: null, name: 'Shows y social del sábado' },
-    { time: null, name: 'Battles y DJs en vivo' },
+  { id: 'sabado', day: 'Sábado', date: '28', title: 'Talleres internacionales y noche de shows', dressCode: 'Elegante sport / gala', events: [
+    ...workshopEvents('Sábado'),
+    { time: '21:00', name: 'Apertura de puertas' },
+    { time: '22:00', name: 'Shows y social del sábado' },
   ] },
-  { id: 'domingo', day: 'Domingo', date: '29', title: 'Talleres, masterclass all stars y gran final Battle Master', events: [
-    { time: null, name: 'Talleres internacionales' },
-    { time: null, name: 'Masterclass All Stars' },
-    { time: null, name: 'Final Comadreja Battle Master 1vs1' },
-    { time: null, name: 'Social del domingo · cierre' },
+  { id: 'domingo', day: 'Domingo', date: '29', title: 'Talleres, Mega Stars Class y gran final Battle Master', dressCode: 'Como más te guste', events: [
+    ...workshopEvents('Domingo'),
+    { time: '21:00', name: 'Final Comadreja Battle Master 1vs1' },
+    { time: '23:00', name: 'Social del domingo · cierre' },
   ] },
-];
-
-export const workshops = [
-  { day: 'Sábado', title: 'Charla para competidores', teacher: 'Karen y Ricardo', image: 'artist-karen-ricardo.jpg', handles: ['karenyricardo'] },
-  { day: 'Sábado', title: 'Salsa · shines y vueltas combinadas', teacher: 'Karen y Ricardo', image: 'artist-karen-ricardo.jpg', handles: ['karenyricardo'] },
-  { day: 'Sábado', title: 'Bachata · shines y vueltas combinadas', teacher: 'Stephanie Lucero', image: 'artist-stephanie-lucero.jpg', handles: ['stephanielucerooffical'] },
-  { day: 'Sábado', title: 'Bachata · shines y vueltas combinadas', teacher: 'Cristian Paredes e Isidora Jacob', image: 'artist-isidora-cristian.jpg', handles: ['cl.cristianparedes', 'isidorajacob__'] },
-  { day: 'Sábado', title: 'Salsa · shines y vueltas combinadas', teacher: 'Carine y Rafael', image: 'artist-carine-rafael.jpg', handles: ['carineyrafael'] },
-  { day: 'Domingo', title: 'Mega Stars Class Bachata', teacher: 'Masterclass de bachata coreográfica con 8 profesores reconocidos', image: null, handles: [] },
-  { day: 'Domingo', title: 'Salsa fusión', teacher: 'Darío Burgenes', image: 'artist-dario-burgenes.jpg', handles: ['darioburgenescandela'] },
-  { day: 'Domingo', title: 'Mambo · shines y vueltas combinadas', teacher: 'Ángel Rojas y Carla Martínez', image: 'artist-angel-carly.jpg', handles: ['angelrojas_86'] },
-  { day: 'Domingo', title: 'Bachata · shines y vueltas combinadas', teacher: 'Anthony y Belén', image: 'artist-antoni-belen.jpg', handles: ['antoniybelenoficial'] },
 ];
 
 export const stages = [

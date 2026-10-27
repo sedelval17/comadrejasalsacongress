@@ -8,14 +8,14 @@ import Video from '../components/Video.astro';
 import Icon from '../components/Icon.astro';
 import { event, links, socials, videos } from '../data/site';
 const contacts = [
-  { label: 'Isa · Full Pass', title: 'El congreso completo', description: 'Reservá tu lugar y consultá todas las formas de pago.', href: links.fullPass, action: 'Quiero el Full Pass' },
-  { label: 'Isa · El Mundial', title: 'Tu próxima competencia', description: 'Información sobre categorías, precios de inscripción y Final Nacional.', href: links.mundial, action: 'Quiero inscribirme' },
-  { label: 'Isa · Asesoramiento', title: 'Hablemos de Comadreja', description: 'Cualquier otra consulta sobre el congreso.', href: links.info, action: 'Más información' },
+  { label: 'Isa · Full Pass', title: 'El congreso completo', description: 'Elegí Full Pass Espectador o Competidor y consultá todas las formas de pago.', href: links.fullPass, action: 'Quiero el Full Pass' },
+  { label: 'El Mundial · Plataforma oficial', title: 'Registro de finalistas', description: 'Creá tu cuenta y completá la inscripción a la Final Nacional Argentina hasta el 8 de noviembre de 2026.', href: links.mundialRegistration, action: 'Inscripción Finalistas Argentinos' },
+  { label: 'Isa · Pagos y consultas', title: 'Hablemos de Comadreja', description: 'Consultá por tu inscripción, coordiná el pago y enviá tu comprobante al 351 206 6467.', href: links.info, action: 'Hablar con Isa' },
   { label: 'Isa · Battle Master', title: 'Tu lugar en el 1vs1', description: 'Inscripción al Battle Master con Isa: 351 206 6467.', href: links.battle, action: 'Inscribirme con Isa' },
 ];
 ---
 <Layout title="Contacto y ubicación" description="Contactá a Isa por Full Pass, El Mundial y Battle Master. Hotel Estilo MB, Almafuerte 40, Villa Carlos Paz. Redes oficiales y videos del congreso.">
-  <PageIntro eyebrow="Estamos para ayudarte" title="Nos vemos" accent="en la pista." description="Todas las inscripciones y consultas se coordinan con Isa. También podés seguirnos en Instagram para conocer las novedades del congreso." number="06" />
+  <PageIntro eyebrow="Estamos para ayudarte" title="Nos vemos" accent="en la pista." description="Consultas, reservas y pagos con Isa. El registro de finalistas de El Mundial se completa en su plataforma oficial. También podés seguirnos en Instagram para conocer las novedades del congreso." number="06" />
   <section class="section cream"><div class="container"><div class="contact-grid">{contacts.map(contact => <article class="contact-item"><span class="eyebrow">{contact.label}</span><h2>{contact.title}</h2><p>{contact.description}</p><Button href={contact.href} variant="wine">{contact.action}</Button></article>)}</div></div></section>
   <section class="section"><div class="container organizer"><Picture name="organizador-rodrigo-perazolo.jpg" alt="Rodrigo Perazolo, organizador de Comadreja Salsa Congress" sizes="240px" /><div><SectionHeading eyebrow="El organizador" title="Rodrigo Perazolo" /><p class="lede">Junto a su familia, Rodrigo creó Comadreja hace más de 25 años y hoy organiza cada edición del congreso: la Final Nacional de El Mundial, el Comadreja Battle Master 1vs1, los talleres, los shows y las noches sociales.</p></div></div></section>
   <section class="section wine"><div class="container"><SectionHeading eyebrow="Seguinos" title="Comadreja, todo el año." /><div class="social-links">{socials.map(social => <a href={social.url} target="_blank" rel="noopener noreferrer"><div><strong>{social.handle}</strong><small>{social.description}</small></div><Icon name="external" /></a>)}</div></div></section>

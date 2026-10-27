@@ -1024,5 +1024,32 @@
         "avif": "/assets/images/video-poster-1280.avif"
       }
     ]
+  },
+  "mega-stars-class-bachata.jpg": {
+    "width": 1066,
+    "height": 1600,
+    "original": "/assets/images/mega-stars-class-bachata.jpg",
+    "variants": [
+      {
+        "width": 320,
+        "webp": "/assets/images/mega-stars-class-bachata-320.webp",
+        "avif": "/assets/images/mega-stars-class-bachata-320.avif"
+      },
+      {
+        "width": 640,
+        "webp": "/assets/images/mega-stars-class-bachata-640.webp",
+        "avif": "/assets/images/mega-stars-class-bachata-640.avif"
+      },
+      {
+        "width": 960,
+        "webp": "/assets/images/mega-stars-class-bachata-960.webp",
+        "avif": "/assets/images/mega-stars-class-bachata-960.avif"
+      },
+      {
+        "width": 1066,
+        "webp": "/assets/images/mega-stars-class-bachata-1066.webp",
+        "avif": "/assets/images/mega-stars-class-bachata-1066.avif"
+      }
+    ]
   }
 }

@@ -546,3 +546,119 @@
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
   @media print { .site-header, .site-footer, .contact-float, .day-nav, .pass-banner, .button, .video-grid { display: none; } body, .cream, .wine, .page-intro, .section { background: #fff; color: #111; } .section { padding-block: 24px; } .container { width: 100%; } p, .eyebrow, .lede, .fineprint { color: #333 !important; } a { text-decoration: underline; } .schedule-day, .artist-card { break-inside: avoid; } }
 }
+
+
+@layer components {
+  .pass-competitor { font-size: 1rem; margin-top: -8px; }
+  .pass-competitor strong { color: var(--gold); }
+  .pass-advance { font-size: .875rem; color: #e5d4cc; margin-block: 8px 22px; }
+  .pass-label { max-width: 30ch; }
+  .schedule-day > div:last-child { min-width: 0; }
+  .schedule-dress-code { display: flex; align-items: center; gap: 18px; margin-top: 25px; padding-top: 22px; border-top: 1px solid var(--line-dark); }
+  .schedule-dress-code > span { font-size: 2.3rem; color: #7a4732; }
+  .schedule-dress-code .eyebrow { font-size: .75rem; letter-spacing: .1em; }
+  .schedule-dress-code p { color: var(--wine); font-size: 1.2rem; font-weight: 750; margin-top: 3px; }
+  .workshop-copy { min-width: 0; }
+  .workshop-time { display: block; color: var(--gold); font-weight: 800; font-size: .875rem; letter-spacing: .05em; margin-bottom: 7px; }
+  .workshop .workshop-guest { color: var(--cream); }
+  .workshop-featured { grid-column: 1 / -1; display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 28px; padding: 24px; background: var(--wine-deep); border: 1px solid #dcc18b60; align-items: center; }
+  .workshop-featured > picture { width: 100%; height: auto; }
+  .workshop-featured img { height: auto; }
+  .workshop-featured h4 { font-family: var(--display); font-size: clamp(1.5rem, 2.3vw, 2rem); line-height: 1.2; font-weight: 500; }
+  .professor-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); list-style: none; padding: 0; gap: 0 16px; margin-block: 14px 10px; }
+  .professor-list li { padding-block: 6px; border-bottom: 1px solid var(--line); font-size: .9375rem; }
+  .price-card.featured { --muted: #e3d3cc; }
+  .price-card { display: flex; flex-direction: column; }
+  .price-card .pass-note { margin-block: 22px 30px; }
+  .price-card .pass-note + .button { margin-top: auto; }
+  .advance-prices { padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+  .advance-prices p { margin-top: 8px; color: var(--muted); }
+  .other-passes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; }
+  .other-pass { padding-block: 30px; border-top: 1px solid var(--line-dark); }
+  .other-pass h3 { font-size: 1.6rem; }
+  .other-pass .other-pass-price { font-family: var(--display); color: var(--wine); font-size: 3rem; line-height: 1.2; margin-block: 15px; }
+  .other-pass > p:not(.other-pass-price) { color: var(--muted); }
+  .other-pass .underlink { margin-top: 20px; font-weight: 750; }
+  .competition-start-price { font-family: var(--display); font-size: 2.5rem; color: var(--gold); margin-top: 20px; }
+  .competition-pricing .price-table li { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.5fr); gap: 10px 20px; font-size: 1rem; }
+  .competition-pricing .price-table strong { max-width: 100%; }
+  .social-price-note { font-size: 1rem; margin-bottom: 24px; color: var(--muted); }
+  .mundial-hero { background: radial-gradient(ellipse at 80% 40%, #69213870, transparent 60%), var(--wine-deep); padding-block: 32px 65px; }
+  .mundial-topline { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding-bottom: 25px; border-bottom: 1px solid var(--line); }
+  .mundial-topline img { width: min(520px, 60%); height: auto; }
+  .mundial-topline p { color: #ddccc3; font-size: .9375rem; text-align: right; }
+  .mundial-hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: center; gap: clamp(35px, 5vw, 75px); padding-top: 45px; }
+  .mundial-hero h1 { font-size: clamp(3rem, 6.1vw, 5.7rem); line-height: 1.08; text-transform: uppercase; margin-block: 18px 25px; }
+  .mundial-hero h1 span { color: var(--gold); }
+  .mundial-hero .lede { max-width: 620px; color: #e1d0c7; }
+  .mundial-hero .button-row { margin-top: 30px; }
+  .mundial-deadline { padding: 36px; border: 1px solid #dcc18b80; background: #22111680; }
+  .mundial-deadline .eyebrow { color: var(--gold); }
+  .mundial-deadline time { display: flex; align-items: center; gap: 22px; margin-block: 12px 22px; color: var(--gold); }
+  .deadline-day { font-family: var(--display); font-size: clamp(7rem, 10vw, 9.5rem); line-height: 1; }
+  .deadline-month { font-size: clamp(1rem, 1.6vw, 1.3rem); line-height: 1.7; letter-spacing: .08em; }
+  .deadline-month b { font-weight: 500; font-size: 1.7em; letter-spacing: .12em; }
+  .mundial-deadline p { color: #e1d0c7; font-size: 1rem; }
+  .registration-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
+  .registration-options > article { min-width: 0; border-top: 1px solid var(--line-dark); padding-top: 28px; }
+  .registration-options h3 { font-family: var(--display); font-size: 2.3rem; font-weight: 500; margin-top: 12px; }
+  .registration-price { font-family: var(--display); font-size: 3.7rem; color: var(--wine); line-height: 1.2; margin-block: 20px 12px; }
+  .registration-price small { font-family: var(--body); display: block; font-size: 1rem; }
+  .registration-price-label { font-size: .875rem; color: var(--muted); }
+  .registration-pass .check-list { margin-block: 20px 28px; }
+  .registration-categories > p:not(.registration-price) { color: var(--muted); font-size: 1rem; }
+  .registration-steps { list-style: none; padding: 0; }
+  .registration-steps > li { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 30px; padding-block: 30px; border-top: 1px solid var(--line); }
+  .step-number { color: var(--gold); font-family: var(--display); font-size: 2.8rem; line-height: 1.2; }
+  .registration-steps h3 { margin-bottom: 12px; }
+  .registration-steps p { color: var(--muted); max-width: 850px; }
+  .registration-steps .underlink { margin-top: 16px; color: var(--gold); }
+  .inline-link { text-decoration: underline; text-underline-offset: 4px; }
+  .registration-welcome { display: flex; align-items: center; gap: 25px; padding-top: 30px; margin-top: 12px; border-top: 1px solid var(--line); }
+  .registration-welcome > span { color: var(--gold); font-size: 2.6rem; }
+  .registration-welcome p { color: var(--muted); }
+  .registration-welcome strong { color: var(--cream); font-size: 1.2rem; }
+  .qualifying-venues { border-top: 1px solid var(--line); padding-block: 24px; }
+  .qualifying-venues summary { color: var(--gold); font-size: 1rem; font-weight: 750; }
+}
+
+@layer responsive {
+  @media (max-width: 1099px) {
+    .professor-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .mundial-hero-grid { grid-template-columns: minmax(0, 1fr) minmax(270px, .8fr); gap: 32px; }
+    .mundial-deadline { padding: 26px; }
+    .deadline-day { font-size: 7rem; }
+    .deadline-month { font-size: 1rem; }
+  }
+  @media (max-width: 767px) {
+    .workshop-featured { grid-template-columns: 96px minmax(0, 1fr); padding: 20px; gap: 8px 16px; margin-bottom: 20px; }
+    .workshop-featured > picture { grid-column: 1; grid-row: 1 / span 3; align-self: center; }
+    .workshop-featured .workshop-copy { display: contents; }
+    .workshop-featured .workshop-time, .workshop-featured h4, .workshop-featured .workshop-copy > p { grid-column: 2; margin: 0; }
+    .workshop-featured h4 { font-size: 1.3rem; }
+    .workshop-featured .workshop-copy > p { font-size: .875rem; line-height: 1.6; }
+    .workshop-featured .professor-list, .workshop-featured .underlink { grid-column: 1 / -1; }
+    .professor-list { gap: 0 16px; margin-block: 8px 2px; }
+    .professor-list li { font-size: .9375rem; }
+    .other-passes, .registration-options { grid-template-columns: 1fr; gap: 0; }
+    .registration-options { gap: 40px; }
+    .competition-pricing .price-table li { grid-template-columns: 1fr; gap: 6px; }
+    .competition-pricing .price-table strong { text-align: left; }
+    .mundial-hero { padding-block: 24px 40px; }
+    .mundial-topline { flex-direction: column; align-items: flex-start; gap: 18px; }
+    .mundial-topline img { width: min(100%, 430px); }
+    .mundial-topline p { font-size: .875rem; max-width: none; text-align: left; }
+    .mundial-hero-grid { grid-template-columns: minmax(0, 1fr); padding-top: 30px; gap: 30px; }
+    .mundial-hero h1 { font-size: clamp(2.8rem, 11vw, 4.5rem); }
+    .mundial-hero .button-row { align-items: stretch; flex-direction: column; }
+    .mundial-deadline { padding: 26px; }
+    .mundial-deadline time { gap: 18px; }
+    .deadline-day { font-size: clamp(5.5rem, 25vw, 7.5rem); }
+    .deadline-month { font-size: clamp(.9375rem, 3vw, 1.15rem); }
+    .registration-price { font-size: 3.3rem; }
+    .registration-steps > li { grid-template-columns: 42px minmax(0, 1fr); gap: 18px; }
+    .step-number { font-size: 2rem; }
+    .registration-welcome { align-items: flex-start; gap: 18px; }
+    .registration-welcome strong { font-size: 1.1rem; }
+  }
+}

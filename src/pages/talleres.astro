@@ -5,17 +5,39 @@ import PageIntro from '../components/PageIntro.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import Button from '../components/Button.astro';
 import Picture from '../components/Picture.astro';
-import InfoBlock from '../components/InfoBlock.astro';
 import VenueInfo from '../components/VenueInfo.astro';
 import PassBanner from '../components/PassBanner.astro';
 import { schedule, workshops } from '../data/program';
 import { links } from '../data/site';
 ---
-<Layout title="Cronograma y talleres" description="Programa del 26 al 29 de noviembre: competencias, talleres de salsa y bachata, profesores, shows y noches de social. Horarios publicados y pendientes.">
+<Layout title="Cronograma y talleres" description="Horarios del 26 al 29 de noviembre: Final Nacional, talleres, Mega Stars Class, shows, Battle Master y noches de social con sus dress codes.">
   <PageIntro eyebrow="Del 26 al 29 de noviembre · Programa sujeto a cambios" title="Cuatro días." accent="Toda la energía." description="Competencia, formación y fiesta en Villa Carlos Paz. Explorá el programa día por día y los talleres con nuestros artistas nacionales e internacionales." number="03"><div class="button-row"><Button href="#talleres" variant="outline">Ver los talleres</Button></div></PageIntro>
   <nav class="day-nav" aria-label="Días del cronograma"><div class="container">{schedule.map(day => <a href={`#${day.id}`}>{day.day} {day.date}</a>)}</div></nav>
-  <section class="section cream"><div class="container"><SectionHeading eyebrow="El programa" title="Día por día." /><p class="fineprint">Talleres del sábado y domingo: horarios a confirmar. Social viernes, sábado y domingo; la noche del viernes comienza a las 00:00 del sábado 28.</p><div class="content-gap">{schedule.map(day => <article class="schedule-day" id={day.id}><div class="schedule-date"><span class="eyebrow">{day.day}</span><span>{day.date}</span><small>NOVIEMBRE 2026</small></div><div><h3>{day.title}</h3><ul class="schedule-slots">{day.events.map(item => <li>{item.time ? <time>{item.time}</time> : <span class="pending-time">Horario a confirmar</span>}<span>{item.name}</span></li>)}</ul></div></article>)}</div><InfoBlock title="El Mundial en Córdoba">Eliminatoria de Córdoba: 1 de noviembre. Final Nacional Argentina: 26 y 27 de noviembre, con participantes de todas las sedes del país.</InfoBlock></div></section>
-  <section class="section" id="talleres"><div class="container"><SectionHeading eyebrow="Formación · Incluida en el Full Pass" title="Aprendé con quienes te inspiran." description="Talleres internacionales, charla para competidores y Mega Stars Class." />{['Sábado', 'Domingo'].map(day => <div class="workshop-day"><h3>{day} {day === 'Sábado' ? '28' : '29'} <span aria-hidden="true">/</span></h3><div class="workshops-grid">{workshops.filter(workshop => workshop.day === day).map(workshop => <article class="workshop">{workshop.image ? <Picture name={workshop.image} alt={workshop.teacher} sizes="80px" /> : <div class="workshop-marker" aria-hidden="true">✦</div>}<div><h4>{workshop.title}</h4><p>{workshop.teacher}</p>{workshop.handles.map(handle => <a href={`https://instagram.com/${handle}`} target="_blank" rel="noopener noreferrer">@{handle} ↗</a>)}</div></article>)}</div></div>)}<div class="content-gap"><Button href={links.fullPass}>Reservar mi lugar en los talleres</Button></div></div></section>
+  <section class="section cream"><div class="container">
+    <SectionHeading eyebrow="El programa" title="Día por día." />
+    <p class="fineprint">Todos los horarios corresponden a la hora de Argentina. La social del viernes comienza a las 00:00 del sábado 28.</p>
+    <div class="content-gap">{schedule.map(day => <article class="schedule-day" id={day.id}>
+      <div class="schedule-date"><span class="eyebrow">{day.day}</span><span>{day.date}</span><small>NOVIEMBRE 2026</small></div>
+      <div><h3>{day.title}</h3><ul class="schedule-slots">{day.events.map(item => <li><time>{item.time}</time><span>{item.name}</span></li>)}</ul>
+        {day.dressCode && <div class="schedule-dress-code"><span aria-hidden="true">✦</span><div><span class="eyebrow">Dress code · social</span><p>{day.dressCode}</p></div></div>}
+      </div>
+    </article>)}</div>
+  </div></section>
+  <section class="section" id="talleres"><div class="container">
+    <SectionHeading eyebrow="Formación · Incluida en el Full Pass" title="Aprendé con quienes te inspiran." description="Talleres internacionales, charla para competidores y Mega Stars Class." />
+    {['Sábado', 'Domingo'].map(day => <div class="workshop-day"><h3>{day} {day === 'Sábado' ? '28' : '29'} <span aria-hidden="true">/</span></h3>
+      <div class="workshops-grid">{workshops.filter(workshop => workshop.day === day).map(workshop => <article class:list={['workshop', { 'workshop-featured': workshop.featured }]}>
+        <Picture name={workshop.image} alt={workshop.featured ? 'Afiche oficial de Mega Stars Class con los ocho profesores de bachata invitados' : workshop.teacher} sizes={workshop.featured ? '(min-width: 768px) 180px, 96px' : '80px'} />
+        <div class="workshop-copy"><time class="workshop-time">{workshop.time} HS</time><h4>{workshop.title}</h4><p>{workshop.teacher}</p>
+          {workshop.guest && <p class="workshop-guest">Invitada: <strong>{workshop.guest}</strong></p>}
+          {workshop.professors && <ul class="professor-list">{workshop.professors.map(professor => <li>{professor}</li>)}</ul>}
+          {workshop.handles.map(handle => <a href={`https://instagram.com/${handle}`} target="_blank" rel="noopener noreferrer">@{handle} ↗</a>)}
+          {workshop.featured && <a class="underlink" href={withBase('/assets/images/mega-stars-class-bachata.jpg')} target="_blank" rel="noopener noreferrer">Ver afiche completo ↗</a>}
+        </div>
+      </article>)}</div>
+    </div>)}
+    <div class="content-gap"><Button href={links.fullPass}>Reservar mi lugar en los talleres</Button></div>
+  </div></section>
   <section class="section wine"><div class="container social-band"><div><SectionHeading eyebrow="Viernes, sábado y domingo" title="Shows, DJs y social." /><p class="lede content-gap">Shows internacionales y nacionales en el escenario de Comadreja. Sets de DJ Moon, DJ Tito, DJ Fede Ramírez, DJ Matias Casco y DJ Joseco.</p><div class="content-gap"><Button href={withBase('/artistas.html#djs')} variant="outline">Ver DJs y artistas</Button></div></div><div class="social-ratio"><span>50%<small>BACHATA</small></span><span aria-hidden="true">✦</span><span>50%<small>SALSA</small></span></div></div></section>
   <section class="section compact cream"><div class="container"><VenueInfo /></div></section>
   <PassBanner />
