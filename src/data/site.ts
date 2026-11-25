@@ -59,7 +59,7 @@ const congressIncludes = [
 ];
 
 export const prices = {
-  fullPass: '$200.000',
+  fullPass: '$220.000',
   competitorPass: '$180.000',
   mundial: '$60.000',
   categories: [
@@ -70,17 +70,20 @@ export const prices = {
   categoryNote: 'La tercera categoría y las siguientes suman $20.000 cada una. Por ejemplo: 3 categorías, $110.000; 4 categorías, $130.000.',
   advanceNote: 'Precios de venta anticipada. El día del evento, las entradas en puerta tienen otro valor.',
   otherPasses: [
-    { name: 'Full Pass Congreso CSC', amount: '$160.000', details: 'Noches de social, shows, talleres y música en vivo.' },
-    { name: 'Full Pass Social', amount: '$80.000', details: 'Las tres noches de social: viernes, sábado y domingo.' },
-    { name: 'Entrada a la competencia', amount: '$25.000', details: 'Entrada anticipada por día para asistir como público.' },
+    { name: 'Full Pass Congreso CSC', amount: '$170.000', details: 'Noches de social, shows, talleres y música en vivo.' },
+    { name: 'Full Pass Social', amount: '$100.000', details: 'Las tres noches de social: viernes, sábado y domingo.' },
+    { name: 'Entrada a la competencia', amount: '$30.000', details: 'Entrada anticipada por día para asistir como público.' },
     { name: 'Full Pass Juvenil', amount: '$90.000', details: 'Competencia y talleres. Hasta 17 años inclusive.' },
   ],
   nights: [
-    { day: 'Viernes', date: '27 NOV', price: '$30.000', note: 'Comienza a las 00:00 del sábado 28.' },
-    { day: 'Sábado', date: '28 NOV', price: '$35.000' },
-    { day: 'Domingo', date: '29 NOV', price: '$25.000' },
+    { day: 'Viernes', date: '27 NOV', price: '$40.000', note: 'Comienza a las 00:00 del sábado 28.' },
+    { day: 'Sábado', date: '28 NOV', price: '$50.000' },
+    { day: 'Domingo', date: '29 NOV', price: '$35.000' },
   ],
-  spectatorIncludes: congressIncludes,
+  spectatorIncludes: [
+    'Entradas como público a El Mundial y Battle Master',
+    ...congressIncludes,
+  ],
   competitorIncludes: [
     'Inscripción a El Mundial, todas las categorías',
     'Inscripción al Comadreja Battle Master 1vs1',
